@@ -43,7 +43,7 @@ $stop;      tells the simulator to stop
 
 initial
 begin
-#100 input_value = 4'h0; // hex format used
+#100 input_code = 4'h0; // hex format used
 
 
 // Enter you stimulus below this line

@@ -1,0 +1,147 @@
+m255
+K4
+z2
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+Z2 !s12c _opt
+R1
+Z3 !s12c _opt2
+R1
+R3
+R1
+R3
+R1
+R0
+R1
+R2
+R1
+!s11f vlog 2023.4 2023.10, Oct  9 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z4 d/home/r49769hf/Questa/COMP12111
+T_opt
+!s110 1728046807
+V4[CbdCA4b^=Cc4febE8dB2
+Z5 04 21 4 work Display_Decoder_Board fast 0
+Z6 04 4 4 GLIB glbl fast 0
+=1-00d861b46589-66ffe6d6-2edd2-7d8cf
+R1
+Z7 !s12f OEM100
+Z8 !s12b OEM100
+Z9 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work Ex1 -gblso libssl.so -L BoardLib -L Ex1 -L unisims -L BoardLib -L Ex1 -L Ex2 -L Ex3 +acc
+Z10 tCvgOpt 0
+n@_opt
+Z11 OL;O;2023.4;77
+R4
+T_opt1
+!s110 1728047029
+VXQYUZ1h5S6YJmC<ZO4;7N0
+R5
+R6
+=1-00d861b46589-66ffe7b4-da103-841e6
+R1
+R7
+R8
+R9
+o-quiet -auto_acc_if_foreign -work Ex1 -gblso libssl.so -L BoardLib -L unisims -L BoardLib -L Ex1 -L Ex2 -L Ex3 +acc
+R10
+n@_opt1
+R11
+T_opt2
+!s110 1728046127
+Vbf;o63bgPABk<Y`mUMJRd3
+04 25 4 work Display_Decoder_Testbench fast 0
+R6
+=1-00d861b46589-66ffe42f-213c0-7acfb
+R1
+R7
+R8
+R9
+o-quiet -auto_acc_if_foreign -work Ex1 -gblso libssl.so -L unisims -L BoardLib -L Ex1 -L Ex2 -L Ex3 +acc
+R10
+n@_opt2
+R11
+R4
+vDisplay_Decoder
+2./src/Ex1/Display_Decoder.v
+Z12 !s110 1728046788
+!i10b 1
+!s100 ]06]WnAN_Mg3gZ[237Z;E1
+IWIT7VBWC2k^6;C]P=hM=<1
+R4
+w1728046422
+8./src/Ex1/Display_Decoder.v
+F./src/Ex1/Display_Decoder.v
+!i122 24
+L0 20 28
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+Z14 OL;L;2023.4;77
+r1
+!s85 0
+31
+Z15 !s108 1728046788.000000
+!s107 ./src/Ex1/Display_Decoder.v|
+!s90 -reportprogress|300|-lint|-cover|bcsxf|./src/Ex1/Display_Decoder.v|
+!s101 -O0
+!i113 0
+Z16 !s102 -cover bcsxf
+Z17 o-O0 -lint -cover bcsxf
+Z18 tShow_source 1 DisableOpt 1 CoverOpt 1 CvgOpt 0
+n@display_@decoder
+vDisplay_Decoder_Board
+2./src/Ex1/Display_Decoder_Board.v
+!s110 1728046787
+!i10b 1
+!s100 zLcNz_2D1;dS[:2Hn3X4O2
+IUHeQh[?Rnb_nRd:;<IGXf2
+R4
+w1728046783
+8./src/Ex1/Display_Decoder_Board.v
+F./src/Ex1/Display_Decoder_Board.v
+!i122 22
+L0 21 94
+R13
+R14
+r1
+!s85 0
+31
+!s108 1728046787.000000
+!s107 ./src/Ex1/Display_Decoder_Board.v|
+!s90 -reportprogress|300|-lint|-cover|bcsxf|./src/Ex1/Display_Decoder_Board.v|
+!s101 -O0
+!i113 0
+R16
+R17
+R18
+n@display_@decoder_@board
+vDisplay_Decoder_Testbench
+2./src/Ex1/Display_Decoder_Testbench.v
+R12
+!i10b 1
+!s100 1b_T3D[alRzW4[@a2CN0R2
+IPlT2g5AjHA59SK<gfo?HK1
+R4
+w1728046205
+8./src/Ex1/Display_Decoder_Testbench.v
+F./src/Ex1/Display_Decoder_Testbench.v
+!i122 23
+L0 21 56
+R13
+R14
+r1
+!s85 0
+31
+R15
+!s107 ./src/Ex1/Display_Decoder_Testbench.v|
+!s90 -reportprogress|300|-lint|-cover|bcsxf|./src/Ex1/Display_Decoder_Testbench.v|
+!s101 -O0
+!i113 0
+R16
+R17
+R18
+n@display_@decoder_@testbench

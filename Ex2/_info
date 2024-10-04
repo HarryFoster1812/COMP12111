@@ -1,0 +1,89 @@
+m255
+K4
+z2
+!s11f vlog 2023.4 2023.10, Oct  9 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/r49769hf/Questa/COMP12111
+vTraffic_Light
+2./src/Ex2/Traffic_Light.v
+Z1 !s110 1728044027
+!i10b 1
+!s100 e?1[;EO`W:j7Um?g@TGcN0
+I]e7Sgb6Y39o83Y2h;I8QF1
+R0
+Z2 w1728043995
+8./src/Ex2/Traffic_Light.v
+F./src/Ex2/Traffic_Light.v
+!i122 2
+L0 26 23
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2023.4;77
+r1
+!s85 0
+31
+Z5 !s108 1728044027.000000
+!s107 ./src/Ex2/Traffic_Light.v|
+!s90 -reportprogress|300|-lint|-cover|bcsxf|./src/Ex2/Traffic_Light.v|
+!s101 -O0
+!i113 0
+Z6 !s102 -cover bcsxf
+Z7 o-O0 -lint -cover bcsxf
+Z8 tShow_source 1 DisableOpt 1 CoverOpt 1 CvgOpt 0
+n@traffic_@light
+vTraffic_Light_Board
+2./src/Ex2/Traffic_Light_Board.v
+R1
+!i10b 1
+!s100 a<k<>P3ZjEC:8k]e09LWF2
+I[D>>6_C`^Rd5BU_BZ56Xh3
+R0
+R2
+8./src/Ex2/Traffic_Light_Board.v
+F./src/Ex2/Traffic_Light_Board.v
+!i122 0
+L0 23 96
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 ./src/Ex2/Traffic_Light_Board.v|
+!s90 -reportprogress|300|-lint|-cover|bcsxf|./src/Ex2/Traffic_Light_Board.v|
+!s101 -O0
+!i113 0
+R6
+R7
+R8
+n@traffic_@light_@board
+vTraffic_Light_Testbench
+2./src/Ex2/Traffic_Light_Testbench.v
+R1
+!i10b 1
+!s100 9ZON>gnnB:bYK@O]MhALF1
+Inbb`^8ln]EY;YE6z5T;NG2
+R0
+R2
+8./src/Ex2/Traffic_Light_Testbench.v
+F./src/Ex2/Traffic_Light_Testbench.v
+!i122 1
+L0 20 54
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 ./src/Ex2/Traffic_Light_Testbench.v|
+!s90 -reportprogress|300|-lint|-cover|bcsxf|./src/Ex2/Traffic_Light_Testbench.v|
+!s101 -O0
+!i113 0
+R6
+R7
+R8
+n@traffic_@light_@testbench
