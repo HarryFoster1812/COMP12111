@@ -52,6 +52,7 @@ o-quiet -auto_acc_if_foreign -work Ex1 -gblso libssl.so -L BoardLib -L unisims -
 R10
 n@_opt1
 R11
+R4
 T_opt2
 !s110 1728046127
 Vbf;o63bgPABk<Y`mUMJRd3
@@ -69,7 +70,7 @@ R11
 R4
 vDisplay_Decoder
 2./src/Ex1/Display_Decoder.v
-Z12 !s110 1728046788
+Z12 !s110 1729261345
 !i10b 1
 !s100 ]06]WnAN_Mg3gZ[237Z;E1
 IWIT7VBWC2k^6;C]P=hM=<1
@@ -77,14 +78,14 @@ R4
 w1728046422
 8./src/Ex1/Display_Decoder.v
 F./src/Ex1/Display_Decoder.v
-!i122 24
+!i122 30
 L0 20 28
 Z13 VDg1SIo80bB@j0V0VzS_@n1
 Z14 OL;L;2023.4;77
 r1
 !s85 0
 31
-Z15 !s108 1728046788.000000
+Z15 !s108 1729261345.000000
 !s107 ./src/Ex1/Display_Decoder.v|
 !s90 -reportprogress|300|-lint|-cover|bcsxf|./src/Ex1/Display_Decoder.v|
 !s101 -O0
@@ -95,7 +96,7 @@ Z18 tShow_source 1 DisableOpt 1 CoverOpt 1 CvgOpt 0
 n@display_@decoder
 vDisplay_Decoder_Board
 2./src/Ex1/Display_Decoder_Board.v
-!s110 1728046787
+R12
 !i10b 1
 !s100 zLcNz_2D1;dS[:2Hn3X4O2
 IUHeQh[?Rnb_nRd:;<IGXf2
@@ -103,14 +104,14 @@ R4
 w1728046783
 8./src/Ex1/Display_Decoder_Board.v
 F./src/Ex1/Display_Decoder_Board.v
-!i122 22
+!i122 28
 L0 21 94
 R13
 R14
 r1
 !s85 0
 31
-!s108 1728046787.000000
+!s108 1729261344.000000
 !s107 ./src/Ex1/Display_Decoder_Board.v|
 !s90 -reportprogress|300|-lint|-cover|bcsxf|./src/Ex1/Display_Decoder_Board.v|
 !s101 -O0
@@ -129,7 +130,7 @@ R4
 w1728046205
 8./src/Ex1/Display_Decoder_Testbench.v
 F./src/Ex1/Display_Decoder_Testbench.v
-!i122 23
+!i122 29
 L0 21 56
 R13
 R14
