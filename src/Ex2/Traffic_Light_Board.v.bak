@@ -43,20 +43,10 @@ input wire  [5:0]   keycol_pin
 
 // Declare any internal buses and wires here (connections)
 
-wire
-wire
 
 
 // Instantiatiate Trafic_Light here
 
-Traffic_Light Trafic_Light(
-	.lightseq(Traffic_lights_pin[5:0]),
- 	.clock(Clk),
-	.reset(Reset),
-	.D1(),
-	.D2()
-
-);
 
 
 // Make connections to the components on BoardV3 in the instantiation below.

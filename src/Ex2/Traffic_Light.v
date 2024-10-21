@@ -49,7 +49,6 @@ module Traffic_Light ( 	output reg [5:0] lightseq,	//the 6-bit light sequence
 			2:next_state<=3;
 			3:next_state<=4;
 
-
 			4:
 				if (D2==1) begin
 					next_state <= 7;
@@ -64,7 +63,6 @@ module Traffic_Light ( 	output reg [5:0] lightseq,	//the 6-bit light sequence
 				else begin
 					next_state <= 6;
 				end
-
 
 			6:next_state<=7;
 			7:next_state<=8;
@@ -96,34 +94,39 @@ module Traffic_Light ( 	output reg [5:0] lightseq,	//the 6-bit light sequence
 
 	
 // implement your current state assignment, register, here
+
+
 always @ (posedge clock, reset) 
 	begin	
 		if (reset==1) begin
 			current_state <= 0;
 		end
-		current_state <= next_state;
+		else
+		begin
+			current_state <= next_state;
+		end
 	end
 
 // implement your output logic here
 always @(*)
 	begin
 	case (current_state)
-		0:lightseq = `R__R ;
-		1:lightseq = `RA_R ;
-		2:lightseq = `G__R ;
-		3:lightseq = `G__R ;
-		4:lightseq = `G__R ;
-		5:lightseq = `G__R ;
-		6:lightseq = `G__R ;
-		7:lightseq = `A__R ;
-		8:lightseq = `R__R ;
-		9:lightseq = `R_RA ;
-		10:lightseq = `R__R ;
-		11:lightseq = `R__R ;
-		12:lightseq = `R__R ;
-		13:lightseq = `R__R ;
-		14:lightseq = `R__R ;
-		15:lightseq = `R__A ;
+		0:lightseq=`R__R
+		1:lightseq=`RA_R
+		2:lightseq=`G__R
+		3:lightseq=`G__R
+		4:lightseq=`G__R
+		5:lightseq=`G__R
+		6:lightseq=`G__R
+		7:lightseq=`A__R
+		8:lightseq=`R__R
+		9:lightseq=`R_RA
+		10:lightseq=`R__R
+		11:lightseq=`R__R
+		12:lightseq=`R__R
+		13:lightseq=`R__R
+		14:lightseq=`R__R
+		15:lightseq=`R__A
 	endcase
 	end
 endmodule

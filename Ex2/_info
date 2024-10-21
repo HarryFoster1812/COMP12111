@@ -21,6 +21,10 @@ R0
 R1
 R0
 R1
+R0
+R1
+R0
+R1
 Z2 !s12c _opt
 R1
 !s12c _opt2
@@ -53,11 +57,11 @@ n@_opt
 Z10 OL;O;2023.4;77
 R3
 T_opt1
-!s110 1729260890
-V06QGEOTGzBVYPVfLW=D=G2
+!s110 1729526508
+V[`YM;73aAV4F7Dg[LdTfY2
 04 23 4 work Traffic_Light_Testbench fast 0
 R5
-=1-00d861b44f55-67126d5a-263ca-3214c
+=1-6c4b90ee3115-67167aec-3124c-49cf0
 R1
 R6
 R7
@@ -66,7 +70,6 @@ o-quiet -auto_acc_if_foreign -work Ex2 -gblso libssl.so -L unisims -L BoardLib -
 R9
 n@_opt1
 R10
-R3
 T_opt2
 !s110 1729255229
 V84V]6J>RNR:=<l?AOWlNn3
@@ -84,33 +87,33 @@ R10
 R3
 vTraffic_Light
 2./src/Ex2/Traffic_Light.v
-!s110 1729262206
+!s110 1729526503
 !i10b 1
-!s100 5LlHN_>1V__63UADL<1Rb1
-I6?]h[;KDeH:ROgh:1]K]`3
+!s100 QmG1P]XnOJ[GjA>WC<FaJ0
+IhHBXb`U6X:K4S27VRW81W2
 R3
-w1729261866
+w1729526497
 8./src/Ex2/Traffic_Light.v
 F./src/Ex2/Traffic_Light.v
-!i122 111
-L0 26 104
+!i122 123
+L0 26 107
 Z11 VDg1SIo80bB@j0V0VzS_@n1
 Z12 OL;L;2023.4;77
 r1
 !s85 0
 31
-Z13 !s108 1729262205.000000
+!s108 1729526503.000000
 !s107 ./src/Ex2/Traffic_Light.v|
 !s90 -reportprogress|300|-lint|-cover|bcsxf|./src/Ex2/Traffic_Light.v|
 !s101 -O0
 !i113 0
-Z14 !s102 -cover bcsxf
-Z15 o-O0 -lint -cover bcsxf
-Z16 tShow_source 1 DisableOpt 1 CoverOpt 1 CvgOpt 0
+Z13 !s102 -cover bcsxf
+Z14 o-O0 -lint -cover bcsxf
+Z15 tShow_source 1 DisableOpt 1 CoverOpt 1 CvgOpt 0
 n@traffic_@light
 vTraffic_Light_Board
 2./src/Ex2/Traffic_Light_Board.v
-Z17 !s110 1729262205
+Z16 !s110 1729526502
 !i10b 1
 !s100 a<k<>P3ZjEC:8k]e09LWF2
 I[D>>6_C`^Rd5BU_BZ56Xh3
@@ -118,25 +121,25 @@ R3
 w1728043995
 8./src/Ex2/Traffic_Light_Board.v
 F./src/Ex2/Traffic_Light_Board.v
-!i122 109
+!i122 121
 L0 23 96
 R11
 R12
 r1
 !s85 0
 31
-R13
+Z17 !s108 1729526502.000000
 !s107 ./src/Ex2/Traffic_Light_Board.v|
 !s90 -reportprogress|300|-lint|-cover|bcsxf|./src/Ex2/Traffic_Light_Board.v|
 !s101 -O0
 !i113 0
+R13
 R14
 R15
-R16
 n@traffic_@light_@board
 vTraffic_Light_Testbench
 2./src/Ex2/Traffic_Light_Testbench.v
-R17
+R16
 !i10b 1
 !s100 SVn=U<:lZVHl@iX3ED_FO2
 IG;nTD_P2dZbGQzNk_@fJI0
@@ -144,19 +147,19 @@ R3
 w1729260873
 8./src/Ex2/Traffic_Light_Testbench.v
 F./src/Ex2/Traffic_Light_Testbench.v
-!i122 110
+!i122 122
 L0 20 66
 R11
 R12
 r1
 !s85 0
 31
-R13
+R17
 !s107 ./src/Ex2/Traffic_Light_Testbench.v|
 !s90 -reportprogress|300|-lint|-cover|bcsxf|./src/Ex2/Traffic_Light_Testbench.v|
 !s101 -O0
 !i113 0
+R13
 R14
 R15
-R16
 n@traffic_@light_@testbench
