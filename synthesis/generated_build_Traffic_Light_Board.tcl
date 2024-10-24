@@ -5,6 +5,7 @@
  read_verilog /home/r49769hf/Questa/COMP12111/src/BoardLib/Keyboard.v
  read_verilog /home/r49769hf/Questa/COMP12111/src/BoardLib/Segments_Scan.v
  read_verilog /home/r49769hf/Questa/COMP12111/src/BoardLib/Uart_s7.v
+ read_verilog /home/r49769hf/Questa/COMP12111/src/Ex2/Traffic_Light.v
  read_verilog /home/r49769hf/Questa/COMP12111/src/Ex2/Traffic_Light_Board.v
  read_verilog /home/r49769hf/Questa/COMP12111/src/GLIB/glbl.v
 synth_design  -top Traffic_Light_Board -part xc7s25ftgb196-1 -fsm_extraction off 

@@ -37,7 +37,7 @@ module Traffic_Light ( 	output reg [5:0] lightseq,	//the 6-bit light sequence
 	`define A__R 6'b010100; // state 7
 	`define R_RA 6'b100110; // state 9
 	`define R__G 6'b100001; // state 10-14
-	`define R__A 6'b001010; // state 2
+	`define R__A 6'b100010; // state 2
 // implement your next state combinatorial logic block here
 
 
@@ -96,7 +96,7 @@ module Traffic_Light ( 	output reg [5:0] lightseq,	//the 6-bit light sequence
 // implement your current state assignment, register, here
 
 
-always @ (posedge clock, reset) 
+always @ (posedge clock, posedge reset) 
 	begin	
 		if (reset==1) begin
 			current_state <= 0;
@@ -121,11 +121,11 @@ always @(*)
 		7:lightseq=`A__R
 		8:lightseq=`R__R
 		9:lightseq=`R_RA
-		10:lightseq=`R__R
-		11:lightseq=`R__R
-		12:lightseq=`R__R
-		13:lightseq=`R__R
-		14:lightseq=`R__R
+		10:lightseq=`R__G
+		11:lightseq=`R__G
+		12:lightseq=`R__G
+		13:lightseq=`R__G
+		14:lightseq=`R__G
 		15:lightseq=`R__A
 	endcase
 	end

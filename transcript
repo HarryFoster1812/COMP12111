@@ -19,160 +19,54 @@
 # fpgaLoad
 # after#392
 # Info: Startup continues, no compilation required.
-# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
-# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
-# Start time: 16:53:14 on Oct 21,2024
-# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Board.v 
-# -- Compiling module Traffic_Light_Board
-# 
-# Top level modules:
-# 	Traffic_Light_Board
-# End time: 16:53:15 on Oct 21,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
-# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
-# Start time: 16:53:15 on Oct 21,2024
-# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Testbench.v 
-# -- Compiling module Traffic_Light_Testbench
-# 
-# Top level modules:
-# 	Traffic_Light_Testbench
-# End time: 16:53:15 on Oct 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
-# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
-# Start time: 16:53:15 on Oct 21,2024
-# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light.v 
-# -- Compiling module Traffic_Light
-###### ./src/Ex2/Traffic_Light.v(99): always @ (posedge clk, reset) 
-# ** Error: ./src/Ex2/Traffic_Light.v(99): (vlog-2730) Undefined variable: 'clk'.
-###### ./src/Ex2/Traffic_Light.v(111): 		0:lightseq = `R__R ;
-# ** Error: (vlog-13069) ./src/Ex2/Traffic_Light.v(111): near ";": syntax error, unexpected ';'.
-###### ./src/Ex2/Traffic_Light.v(112): 		1:lightseq = `RA_R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(112): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(113): 		2:lightseq = `G__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(113): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(114): 		3:lightseq = `G__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(114): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(115): 		4:lightseq = `G__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(115): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(116): 		5:lightseq = `G__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(116): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(117): 		6:lightseq = `G__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(117): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(118): 		7:lightseq = `A__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(118): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(119): 		8:lightseq = `R__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(119): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(120): 		9:lightseq = `R_RA ;
-# ** Error: ./src/Ex2/Traffic_Light.v(120): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(121): 		10:lightseq = `R__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(121): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(122): 		11:lightseq = `R__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(122): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(123): 		12:lightseq = `R__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(123): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(124): 		13:lightseq = `R__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(124): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(125): 		14:lightseq = `R__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(125): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(126): 		15:lightseq = `R__A ;
-# ** Error: ./src/Ex2/Traffic_Light.v(126): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-# End time: 16:53:15 on Oct 21,2024, Elapsed time: 0:00:00
-# Errors: 17, Warnings: 0
-# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
-# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
-# Start time: 16:54:45 on Oct 21,2024
-# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Board.v 
-# -- Compiling module Traffic_Light_Board
-# 
-# Top level modules:
-# 	Traffic_Light_Board
-# End time: 16:54:46 on Oct 21,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
-# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
-# Start time: 16:54:46 on Oct 21,2024
-# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Testbench.v 
-# -- Compiling module Traffic_Light_Testbench
-# 
-# Top level modules:
-# 	Traffic_Light_Testbench
-# End time: 16:54:46 on Oct 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
-# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
-# Start time: 16:54:46 on Oct 21,2024
-# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light.v 
-# -- Compiling module Traffic_Light
-###### ./src/Ex2/Traffic_Light.v(111): 		0:lightseq=`R__R ;
-# ** Error: (vlog-13069) ./src/Ex2/Traffic_Light.v(111): near ";": syntax error, unexpected ';'.
-###### ./src/Ex2/Traffic_Light.v(112): 		1:lightseq=`RA_R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(112): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(113): 		2:lightseq=`G__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(113): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(114): 		3:lightseq=`G__R;
-# ** Error: ./src/Ex2/Traffic_Light.v(114): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(115): 		4:lightseq=`G__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(115): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(116): 		5:lightseq=`G__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(116): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(117): 		6:lightseq=`G__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(117): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(118): 		7:lightseq=`A__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(118): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(119): 		8:lightseq=`R__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(119): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(120): 		9:lightseq=`R_RA ;
-# ** Error: ./src/Ex2/Traffic_Light.v(120): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(121): 		10:lightseq=`R__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(121): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(122): 		11:lightseq=`R__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(122): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(123): 		12:lightseq=`R__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(123): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(124): 		13:lightseq=`R__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(124): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(125): 		14:lightseq=`R__R ;
-# ** Error: ./src/Ex2/Traffic_Light.v(125): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-###### ./src/Ex2/Traffic_Light.v(126): 		15:lightseq=`R__A ;
-# ** Error: ./src/Ex2/Traffic_Light.v(126): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
-# End time: 16:54:46 on Oct 21,2024, Elapsed time: 0:00:00
-# Errors: 16, Warnings: 0
-# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
-# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
-# Start time: 16:55:17 on Oct 21,2024
-# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Board.v 
-# -- Compiling module Traffic_Light_Board
-# 
-# Top level modules:
-# 	Traffic_Light_Board
-# End time: 16:55:17 on Oct 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
-# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
-# Start time: 16:55:17 on Oct 21,2024
-# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Testbench.v 
-# -- Compiling module Traffic_Light_Testbench
-# 
-# Top level modules:
-# 	Traffic_Light_Testbench
-# End time: 16:55:18 on Oct 21,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
-# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
-# Start time: 16:55:18 on Oct 21,2024
-# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light.v 
-# -- Compiling module Traffic_Light
-# 
-# Top level modules:
-# 	Traffic_Light
-# End time: 16:55:18 on Oct 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim -voptargs="+acc" Ex2.Traffic_Light_Testbench GLIB.glbl 
-# Start time: 16:55:22 on Oct 21,2024
+# vsim -voptargs="+acc" Ex2.Traffic_Light_Board GLIB.glbl -L BoardLib 
+# Start time: 13:56:44 on Oct 24,2024
 # Loading libssl.so
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.Traffic_Light_Board(fast)
+# Loading work.Traffic_Light(fast)
+# Loading BoardLib.BoardV3(fast)
+# Loading BoardLib.Board_reset(fast)
+# Loading unisims.ICAPE2(fast)
+# Loading unisims.SIM_CONFIGE2(fast)
+# Loading BoardLib.Clocks(fast)
+# Loading BoardLib.Keyboard(fast)
+# Loading BoardLib.Segments_Scan(fast)
+# Loading BoardLib.Uart_S7(fast)
+# Loading BoardLib.AckieV2(fast)
+# Loading GLIB.glbl(fast)
+# End time: 13:57:36 on Oct 24,2024, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" Ex2.Traffic_Light_Board GLIB.glbl -L BoardLib 
+# Start time: 13:57:36 on Oct 24,2024
+# Loading libssl.so
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.Traffic_Light_Board(fast)
+# Loading work.Traffic_Light(fast)
+# Loading BoardLib.BoardV3(fast)
+# Loading BoardLib.Board_reset(fast)
+# Loading unisims.ICAPE2(fast)
+# Loading unisims.SIM_CONFIGE2(fast)
+# Loading BoardLib.Clocks(fast)
+# Loading BoardLib.Keyboard(fast)
+# Loading BoardLib.Segments_Scan(fast)
+# Loading BoardLib.Uart_S7(fast)
+# Loading BoardLib.AckieV2(fast)
+# Loading GLIB.glbl(fast)
+run -all
+#  Message: ICAPE2 on instance Traffic_Light_Board.BoardI1.Rst1.u_icape2 at time              1248000 has finished initialization. User can start read/write operation.
+# Break key hit
+# Simulation stop requested.
+# End time: 13:58:47 on Oct 24,2024, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 0
+# WLF meta update error: 
+# Error while executing: run
+# Usage: run {[<timesteps>[<time_units>]] | -all | -continue | -final | -finish | -init | -next | -over [<n>]} | {-step [<n>] [-current] [-out] [-over [<n>]] [-this "this ==<class_handle>]}
+quit -sim
+# vsim -voptargs="+acc" Ex2.Traffic_Light_Testbench GLIB.glbl 
+# Start time: 13:58:56 on Oct 24,2024
+# Loading libssl.so
+# ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
 # ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
 # Use vdir -l command to find such design units.
@@ -180,91 +74,545 @@
 # Loading work.Traffic_Light_Testbench(fast)
 # Loading work.Traffic_Light(fast)
 # Loading GLIB.glbl(fast)
-add wave -position insertpoint sim:/Traffic_Light_Testbench/*
+add wave -position insertpoint sim:/Traffic_Light_Testbench/top/*
 run -all
 # ** Note: $stop    : ./src/Ex2/Traffic_Light_Testbench.v(82)
 #    Time: 2400 ns  Iteration: 0  Instance: /Traffic_Light_Testbench
 # Break in Module Traffic_Light_Testbench at ./src/Ex2/Traffic_Light_Testbench.v line 82
-# Causality operation skipped due to absence of debug database file
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+vsim Ex2.Traffic_Light
+# End time: 13:59:48 on Oct 24,2024, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 2, Suppressed Warnings: 1
+# vsim Ex2.Traffic_Light 
+# Start time: 13:59:48 on Oct 24,2024
+# Loading libssl.so
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
+# Use vdir -l command to find such design units.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.Traffic_Light(fast)
+quit -sim
+# End time: 13:59:58 on Oct 24,2024, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 1
+vsim -voptargs=+acc Ex2.Traffic_Light
+# vsim -voptargs="+acc" Ex2.Traffic_Light 
+# Start time: 14:00:00 on Oct 24,2024
+# Loading libssl.so
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
+# Use vdir -l command to find such design units.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.Traffic_Light(fast)
 # ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
 # QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
-# Start time: 17:01:20 on Oct 21,2024
+# Start time: 14:01:26 on Oct 24,2024
 # vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Board.v 
 # -- Compiling module Traffic_Light_Board
 # 
 # Top level modules:
 # 	Traffic_Light_Board
-# End time: 17:01:20 on Oct 21,2024, Elapsed time: 0:00:00
+# End time: 14:01:26 on Oct 24,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
 # QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
-# Start time: 17:01:20 on Oct 21,2024
+# Start time: 14:01:27 on Oct 24,2024
 # vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Testbench.v 
 # -- Compiling module Traffic_Light_Testbench
 # 
 # Top level modules:
 # 	Traffic_Light_Testbench
-# End time: 17:01:20 on Oct 21,2024, Elapsed time: 0:00:00
+# End time: 14:01:27 on Oct 24,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
 # QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
-# Start time: 17:01:20 on Oct 21,2024
+# Start time: 14:01:27 on Oct 24,2024
 # vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light.v 
 # -- Compiling module Traffic_Light
-###### ./src/Ex2/Traffic_Light.v(107): 	end
-# ** Error: (vlog-13069) ./src/Ex2/Traffic_Light.v(107): near "end": syntax error, unexpected end.
-###### ./src/Ex2/Traffic_Light.v(133): `default_nettype wire
-# ** Error: ./src/Ex2/Traffic_Light.v(133): Compiler directive "`default_nettype" is not allowed inside a design element.
-# End time: 17:01:21 on Oct 21,2024, Elapsed time: 0:00:01
+# 
+# Top level modules:
+# 	Traffic_Light
+# End time: 14:01:27 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:01:36 on Oct 24,2024, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" Ex2.Traffic_Light_Board GLIB.glbl -L BoardLib -L Ex1 
+# Start time: 14:01:36 on Oct 24,2024
+# Loading libssl.so
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
+# Use vdir -l command to find such design units.
+# ** Note: (vopt-143) Recognized 2 FSMs in module "AckieV2(fast)".
+# ** Note: (vopt-143) Recognized 2 FSMs in module "Uart_S7(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "Keyboard(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "Segments_Scan(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "Traffic_Light(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "Board_reset(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.Traffic_Light_Board(fast)
+# Loading work.Traffic_Light(fast)
+# Loading BoardLib.BoardV3(fast)
+# Loading BoardLib.Board_reset(fast)
+# Loading unisims.ICAPE2(fast)
+# Loading unisims.SIM_CONFIGE2(fast)
+# Loading BoardLib.Clocks(fast)
+# Loading BoardLib.Keyboard(fast)
+# Loading BoardLib.Segments_Scan(fast)
+# Loading BoardLib.Uart_S7(fast)
+# Loading BoardLib.AckieV2(fast)
+# Loading GLIB.glbl(fast)
+# End time: 14:01:42 on Oct 24,2024, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 2, Suppressed Warnings: 1
+# vsim -voptargs="+acc" Ex2.Traffic_Light_Board GLIB.glbl -L BoardLib 
+# Start time: 14:03:33 on Oct 24,2024
+# Loading libssl.so
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
+# Use vdir -l command to find such design units.
+# ** Note: (vopt-143) Recognized 2 FSMs in module "AckieV2(fast)".
+# ** Note: (vopt-143) Recognized 2 FSMs in module "Uart_S7(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "Keyboard(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "Segments_Scan(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "Traffic_Light(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "Board_reset(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.Traffic_Light_Board(fast)
+# Loading work.Traffic_Light(fast)
+# Loading BoardLib.BoardV3(fast)
+# Loading BoardLib.Board_reset(fast)
+# Loading unisims.ICAPE2(fast)
+# Loading unisims.SIM_CONFIGE2(fast)
+# Loading BoardLib.Clocks(fast)
+# Loading BoardLib.Keyboard(fast)
+# Loading BoardLib.Segments_Scan(fast)
+# Loading BoardLib.Uart_S7(fast)
+# Loading BoardLib.AckieV2(fast)
+# Loading GLIB.glbl(fast)
+quit -sim
+# End time: 14:04:25 on Oct 24,2024, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 2, Suppressed Warnings: 1
+vsim Ex2.Traffic_Light_Board
+# vsim Ex2.Traffic_Light_Board 
+# Start time: 14:04:27 on Oct 24,2024
+# Loading libssl.so
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
+# Use vdir -l command to find such design units.
+# ** Error (suppressible): /cadtools5/Xilinx_Vivado_2019.2/Vivado/2019.2/ids_lite/ISE/verilog/src/unisims/SIM_CONFIGE2.v(118): (vopt-7063) Failed to find 'glbl' in hierarchical name 'glbl.GSR'.
+#         Region: Traffic_Light_Board.BoardI1.Rst1.u_icape2.SIM_CONFIGE2_INST
+# ** Error (suppressible): /cadtools5/Xilinx_Vivado_2019.2/Vivado/2019.2/ids_lite/ISE/verilog/src/unisims/SIM_CONFIGE2.v(119): (vopt-7063) Failed to find 'glbl' in hierarchical name 'glbl.GTS'.
+#         Region: Traffic_Light_Board.BoardI1.Rst1.u_icape2.SIM_CONFIGE2_INST
+# ** Error (suppressible): /cadtools5/Xilinx_Vivado_2019.2/Vivado/2019.2/ids_lite/ISE/verilog/src/unisims/SIM_CONFIGE2.v(120): (vopt-7063) Failed to find 'glbl' in hierarchical name 'glbl.PROGB_GLBL'.
+#         Region: Traffic_Light_Board.BoardI1.Rst1.u_icape2.SIM_CONFIGE2_INST
+# ** Error (suppressible): /cadtools5/Xilinx_Vivado_2019.2/Vivado/2019.2/ids_lite/ISE/verilog/src/unisims/SIM_CONFIGE2.v(121): (vopt-7063) Failed to find 'glbl' in hierarchical name 'glbl.PLL_LOCKG'.
+#         Region: Traffic_Light_Board.BoardI1.Rst1.u_icape2.SIM_CONFIGE2_INST
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=4, Warnings=1.
+# Error loading design
+# End time: 14:04:28 on Oct 24,2024, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 1
+# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
+# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+# Start time: 14:08:46 on Oct 24,2024
+# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Board.v 
+# -- Compiling module Traffic_Light_Board
+###### ./src/Ex2/Traffic_Light_Board.v(48): wire Reset
+# ** Error (suppressible): ./src/Ex2/Traffic_Light_Board.v(48): (vlog-2388) 'Clk' already declared in this scope (Traffic_Light_Board) at ./src/Ex2/Traffic_Light_Board.v(37).
+# ** Error: (vlog-13069) ./src/Ex2/Traffic_Light_Board.v(48): near "wire": syntax error, unexpected wire, expecting ';'.
+# End time: 14:08:46 on Oct 24,2024, Elapsed time: 0:00:00
 # Errors: 2, Warnings: 0
 # ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
 # QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
-# Start time: 17:01:42 on Oct 21,2024
+# Start time: 14:09:02 on Oct 24,2024
+# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Board.v 
+# -- Compiling module Traffic_Light_Board
+###### ./src/Ex2/Traffic_Light_Board.v(47): wire Clk;
+# ** Error (suppressible): ./src/Ex2/Traffic_Light_Board.v(47): (vlog-2388) 'Clk' already declared in this scope (Traffic_Light_Board) at ./src/Ex2/Traffic_Light_Board.v(37).
+###### ./src/Ex2/Traffic_Light_Board.v(48): wire Reset;
+# ** Error (suppressible): ./src/Ex2/Traffic_Light_Board.v(48): (vlog-2388) 'Reset' already declared in this scope (Traffic_Light_Board) at ./src/Ex2/Traffic_Light_Board.v(38).
+# End time: 14:09:02 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
+# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+# Start time: 14:09:55 on Oct 24,2024
 # vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Board.v 
 # -- Compiling module Traffic_Light_Board
 # 
 # Top level modules:
 # 	Traffic_Light_Board
-# End time: 17:01:42 on Oct 21,2024, Elapsed time: 0:00:00
+# End time: 14:09:55 on Oct 24,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
 # QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
-# Start time: 17:01:42 on Oct 21,2024
+# Start time: 14:09:55 on Oct 24,2024
 # vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Testbench.v 
 # -- Compiling module Traffic_Light_Testbench
 # 
 # Top level modules:
 # 	Traffic_Light_Testbench
-# End time: 17:01:42 on Oct 21,2024, Elapsed time: 0:00:00
+# End time: 14:09:56 on Oct 24,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
 # QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
-# Start time: 17:01:43 on Oct 21,2024
+# Start time: 14:09:56 on Oct 24,2024
 # vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light.v 
 # -- Compiling module Traffic_Light
 # 
 # Top level modules:
 # 	Traffic_Light
-# End time: 17:01:43 on Oct 21,2024, Elapsed time: 0:00:00
+# End time: 14:09:56 on Oct 24,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 17:01:47 on Oct 21,2024, Elapsed time: 0:06:25
-# Errors: 0, Warnings: 2
-# vsim -voptargs="+acc" Ex2.Traffic_Light_Testbench GLIB.glbl 
-# Start time: 17:01:47 on Oct 21,2024
+# vsim -voptargs="+acc" Ex2.Traffic_Light_Board GLIB.glbl -L BoardLib -L Ex1 
+# Start time: 14:10:02 on Oct 24,2024
 # Loading libssl.so
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
 # ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
 # Use vdir -l command to find such design units.
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
-# Loading work.Traffic_Light_Testbench(fast)
+# Loading work.Traffic_Light_Board(fast)
 # Loading work.Traffic_Light(fast)
+# Loading BoardLib.BoardV3(fast)
+# Loading BoardLib.Board_reset(fast)
+# Loading unisims.ICAPE2(fast)
+# Loading unisims.SIM_CONFIGE2(fast)
+# Loading BoardLib.Clocks(fast)
+# Loading BoardLib.Keyboard(fast)
+# Loading BoardLib.Segments_Scan(fast)
+# Loading BoardLib.Uart_S7(fast)
+# Loading BoardLib.AckieV2(fast)
 # Loading GLIB.glbl(fast)
-add wave -position insertpoint sim:/Traffic_Light_Testbench/*
-run -all
-# ** Note: $stop    : ./src/Ex2/Traffic_Light_Testbench.v(82)
-#    Time: 2400 ns  Iteration: 0  Instance: /Traffic_Light_Testbench
-# Break in Module Traffic_Light_Testbench at ./src/Ex2/Traffic_Light_Testbench.v line 82
-# End time: 17:17:22 on Oct 21,2024, Elapsed time: 0:15:35
+# End time: 14:10:07 on Oct 24,2024, Elapsed time: 0:00:05
 # Errors: 0, Warnings: 2
+# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
+# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+# Start time: 14:11:00 on Oct 24,2024
+# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Board.v 
+# -- Compiling module Traffic_Light_Board
+# 
+# Top level modules:
+# 	Traffic_Light_Board
+# End time: 14:11:00 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
+# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+# Start time: 14:11:01 on Oct 24,2024
+# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Testbench.v 
+# -- Compiling module Traffic_Light_Testbench
+# 
+# Top level modules:
+# 	Traffic_Light_Testbench
+# End time: 14:11:01 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
+# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+# Start time: 14:11:01 on Oct 24,2024
+# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light.v 
+# -- Compiling module Traffic_Light
+# 
+# Top level modules:
+# 	Traffic_Light
+# End time: 14:11:01 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" Ex2.Traffic_Light_Board GLIB.glbl -L BoardLib -L Ex1 
+# Start time: 14:11:09 on Oct 24,2024
+# Loading libssl.so
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
+# Use vdir -l command to find such design units.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.Traffic_Light_Board(fast)
+# Loading work.Traffic_Light(fast)
+# Loading BoardLib.BoardV3(fast)
+# Loading BoardLib.Board_reset(fast)
+# Loading unisims.ICAPE2(fast)
+# Loading unisims.SIM_CONFIGE2(fast)
+# Loading BoardLib.Clocks(fast)
+# Loading BoardLib.Keyboard(fast)
+# Loading BoardLib.Segments_Scan(fast)
+# Loading BoardLib.Uart_S7(fast)
+# Loading BoardLib.AckieV2(fast)
+# Loading GLIB.glbl(fast)
+# End time: 14:11:13 on Oct 24,2024, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 2
+# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
+# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+# Start time: 14:12:15 on Oct 24,2024
+# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Board.v 
+# -- Compiling module Traffic_Light_Board
+# 
+# Top level modules:
+# 	Traffic_Light_Board
+# End time: 14:12:15 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
+# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+# Start time: 14:12:16 on Oct 24,2024
+# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Testbench.v 
+# -- Compiling module Traffic_Light_Testbench
+# 
+# Top level modules:
+# 	Traffic_Light_Testbench
+# End time: 14:12:16 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
+# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+# Start time: 14:12:16 on Oct 24,2024
+# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light.v 
+# -- Compiling module Traffic_Light
+# 
+# Top level modules:
+# 	Traffic_Light
+# End time: 14:12:16 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" Ex2.Traffic_Light_Board GLIB.glbl -L BoardLib -L Ex1 
+# Start time: 14:12:24 on Oct 24,2024
+# Loading libssl.so
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
+# Use vdir -l command to find such design units.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.Traffic_Light_Board(fast)
+# Loading work.Traffic_Light(fast)
+# Loading BoardLib.BoardV3(fast)
+# Loading BoardLib.Board_reset(fast)
+# Loading unisims.ICAPE2(fast)
+# Loading unisims.SIM_CONFIGE2(fast)
+# Loading BoardLib.Clocks(fast)
+# Loading BoardLib.Keyboard(fast)
+# Loading BoardLib.Segments_Scan(fast)
+# Loading BoardLib.Uart_S7(fast)
+# Loading BoardLib.AckieV2(fast)
+# Loading GLIB.glbl(fast)
+# End time: 14:12:29 on Oct 24,2024, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" Ex2.Traffic_Light_Board GLIB.glbl -L BoardLib 
+# Start time: 14:13:50 on Oct 24,2024
+# Loading libssl.so
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
+# Use vdir -l command to find such design units.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.Traffic_Light_Board(fast)
+# Loading work.Traffic_Light(fast)
+# Loading BoardLib.BoardV3(fast)
+# Loading BoardLib.Board_reset(fast)
+# Loading unisims.ICAPE2(fast)
+# Loading unisims.SIM_CONFIGE2(fast)
+# Loading BoardLib.Clocks(fast)
+# Loading BoardLib.Keyboard(fast)
+# Loading BoardLib.Segments_Scan(fast)
+# Loading BoardLib.Uart_S7(fast)
+# Loading BoardLib.AckieV2(fast)
+# Loading GLIB.glbl(fast)
+# End time: 14:14:20 on Oct 24,2024, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" Ex2.Traffic_Light_Board GLIB.glbl -L BoardLib 
+# Start time: 14:14:20 on Oct 24,2024
+# Loading libssl.so
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.Traffic_Light_Board(fast)
+# Loading work.Traffic_Light(fast)
+# Loading BoardLib.BoardV3(fast)
+# Loading BoardLib.Board_reset(fast)
+# Loading unisims.ICAPE2(fast)
+# Loading unisims.SIM_CONFIGE2(fast)
+# Loading BoardLib.Clocks(fast)
+# Loading BoardLib.Keyboard(fast)
+# Loading BoardLib.Segments_Scan(fast)
+# Loading BoardLib.Uart_S7(fast)
+# Loading BoardLib.AckieV2(fast)
+# Loading GLIB.glbl(fast)
+quit -sim
+# End time: 14:17:12 on Oct 24,2024, Elapsed time: 0:02:52
+# Errors: 0, Warnings: 0
+# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
+# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+# Start time: 14:20:00 on Oct 24,2024
+# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Board.v 
+# -- Compiling module Traffic_Light_Board
+# 
+# Top level modules:
+# 	Traffic_Light_Board
+# End time: 14:20:00 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
+# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+# Start time: 14:20:00 on Oct 24,2024
+# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Testbench.v 
+# -- Compiling module Traffic_Light_Testbench
+# 
+# Top level modules:
+# 	Traffic_Light_Testbench
+# End time: 14:20:00 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
+# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+# Start time: 14:20:00 on Oct 24,2024
+# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light.v 
+# -- Compiling module Traffic_Light
+# 
+# Top level modules:
+# 	Traffic_Light
+# End time: 14:20:01 on Oct 24,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" Ex2.Traffic_Light_Board GLIB.glbl -L BoardLib -L Ex1 
+# Start time: 14:20:06 on Oct 24,2024
+# Loading libssl.so
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
+# Use vdir -l command to find such design units.
+# ** Note: (vopt-143) Recognized 1 FSM in module "Traffic_Light(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.Traffic_Light_Board(fast)
+# Loading work.Traffic_Light(fast)
+# Loading BoardLib.BoardV3(fast)
+# Loading BoardLib.Board_reset(fast)
+# Loading unisims.ICAPE2(fast)
+# Loading unisims.SIM_CONFIGE2(fast)
+# Loading BoardLib.Clocks(fast)
+# Loading BoardLib.Keyboard(fast)
+# Loading BoardLib.Segments_Scan(fast)
+# Loading BoardLib.Uart_S7(fast)
+# Loading BoardLib.AckieV2(fast)
+# Loading GLIB.glbl(fast)
+# End time: 14:20:11 on Oct 24,2024, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" Ex2.Traffic_Light_Board GLIB.glbl -L BoardLib 
+# Start time: 14:23:40 on Oct 24,2024
+# Loading libssl.so
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
+# Use vdir -l command to find such design units.
+# ** Note: (vopt-143) Recognized 1 FSM in module "Traffic_Light(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.Traffic_Light_Board(fast)
+# Loading work.Traffic_Light(fast)
+# Loading BoardLib.BoardV3(fast)
+# Loading BoardLib.Board_reset(fast)
+# Loading unisims.ICAPE2(fast)
+# Loading unisims.SIM_CONFIGE2(fast)
+# Loading BoardLib.Clocks(fast)
+# Loading BoardLib.Keyboard(fast)
+# Loading BoardLib.Segments_Scan(fast)
+# Loading BoardLib.Uart_S7(fast)
+# Loading BoardLib.AckieV2(fast)
+# Loading GLIB.glbl(fast)
+# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
+# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+# Start time: 14:26:08 on Oct 24,2024
+# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Board.v 
+# -- Compiling module Traffic_Light_Board
+# 
+# Top level modules:
+# 	Traffic_Light_Board
+# End time: 14:26:08 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
+# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+# Start time: 14:26:08 on Oct 24,2024
+# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light_Testbench.v 
+# -- Compiling module Traffic_Light_Testbench
+# 
+# Top level modules:
+# 	Traffic_Light_Testbench
+# End time: 14:26:08 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Note: Multiple occurrences of ini variable Show_source are found, only first occurence will be considered.
+# QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+# Start time: 14:26:09 on Oct 24,2024
+# vlog -reportprogress 300 -lint -cover bcsxf ./src/Ex2/Traffic_Light.v 
+# -- Compiling module Traffic_Light
+# 
+# Top level modules:
+# 	Traffic_Light
+# End time: 14:26:09 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:26:14 on Oct 24,2024, Elapsed time: 0:02:34
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" Ex2.Traffic_Light_Board GLIB.glbl -L BoardLib -L Ex1 
+# Start time: 14:26:14 on Oct 24,2024
+# Loading libssl.so
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
+# Use vdir -l command to find such design units.
+# ** Note: (vopt-143) Recognized 1 FSM in module "Traffic_Light(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.Traffic_Light_Board(fast)
+# Loading work.Traffic_Light(fast)
+# Loading BoardLib.BoardV3(fast)
+# Loading BoardLib.Board_reset(fast)
+# Loading unisims.ICAPE2(fast)
+# Loading unisims.SIM_CONFIGE2(fast)
+# Loading BoardLib.Clocks(fast)
+# Loading BoardLib.Keyboard(fast)
+# Loading BoardLib.Segments_Scan(fast)
+# Loading BoardLib.Uart_S7(fast)
+# Loading BoardLib.AckieV2(fast)
+# Loading GLIB.glbl(fast)
+# End time: 14:26:19 on Oct 24,2024, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" Ex2.Traffic_Light_Board GLIB.glbl -L BoardLib 
+# Start time: 14:28:08 on Oct 24,2024
+# Loading libssl.so
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
+# Use vdir -l command to find such design units.
+# ** Note: (vopt-143) Recognized 1 FSM in module "Traffic_Light(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.Traffic_Light_Board(fast)
+# Loading work.Traffic_Light(fast)
+# Loading BoardLib.BoardV3(fast)
+# Loading BoardLib.Board_reset(fast)
+# Loading unisims.ICAPE2(fast)
+# Loading unisims.SIM_CONFIGE2(fast)
+# Loading BoardLib.Clocks(fast)
+# Loading BoardLib.Keyboard(fast)
+# Loading BoardLib.Segments_Scan(fast)
+# Loading BoardLib.Uart_S7(fast)
+# Loading BoardLib.AckieV2(fast)
+# Loading GLIB.glbl(fast)
+# End time: 14:29:03 on Oct 24,2024, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" Ex2.Traffic_Light_Board GLIB.glbl -L BoardLib 
+# Start time: 14:29:03 on Oct 24,2024
+# Loading libssl.so
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.Traffic_Light_Board(fast)
+# Loading work.Traffic_Light(fast)
+# Loading BoardLib.BoardV3(fast)
+# Loading BoardLib.Board_reset(fast)
+# Loading unisims.ICAPE2(fast)
+# Loading unisims.SIM_CONFIGE2(fast)
+# Loading BoardLib.Clocks(fast)
+# Loading BoardLib.Keyboard(fast)
+# Loading BoardLib.Segments_Scan(fast)
+# Loading BoardLib.Uart_S7(fast)
+# Loading BoardLib.AckieV2(fast)
+# Loading GLIB.glbl(fast)
+# End time: 14:29:25 on Oct 24,2024, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" Ex2.Traffic_Light_Board GLIB.glbl -L BoardLib 
+# Start time: 14:29:25 on Oct 24,2024
+# Loading libssl.so
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.Traffic_Light_Board(fast)
+# Loading work.Traffic_Light(fast)
+# Loading BoardLib.BoardV3(fast)
+# Loading BoardLib.Board_reset(fast)
+# Loading unisims.ICAPE2(fast)
+# Loading unisims.SIM_CONFIGE2(fast)
+# Loading BoardLib.Clocks(fast)
+# Loading BoardLib.Keyboard(fast)
+# Loading BoardLib.Segments_Scan(fast)
+# Loading BoardLib.Uart_S7(fast)
+# Loading BoardLib.AckieV2(fast)
+# Loading GLIB.glbl(fast)

@@ -1,0 +1,393 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Oct 24 14:10:08 2024
+# Process ID: 254784
+# Current directory: /home/r49769hf/Questa/COMP12111/synthesis/Traffic_Light_Board
+# Command line: vivado -mode batch -source ../generated_build_Traffic_Light_Board.tcl
+# Log file: /home/r49769hf/Questa/COMP12111/synthesis/Traffic_Light_Board/vivado.log
+# Journal file: /home/r49769hf/Questa/COMP12111/synthesis/Traffic_Light_Board/vivado.jou
+# Running On        :e-c10kilf9026
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.5 LTS
+# Processor Detail  :Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
+# CPU Frequency     :3200.000 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :33510 MB
+# Swap memory       :8589 MB
+# Total Virtual     :42100 MB
+# Available Virtual :39310 MB
+#-----------------------------------------------------------
+source ../generated_build_Traffic_Light_Board.tcl
+# read_verilog /home/r49769hf/Questa/COMP12111/src/BoardLib/AckieV2.v
+read_verilog: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1408.320 ; gain = 0.023 ; free physical = 11655 ; free virtual = 37105
+# read_verilog /home/r49769hf/Questa/COMP12111/src/BoardLib/Board_reset.v
+# read_verilog /home/r49769hf/Questa/COMP12111/src/BoardLib/BoardV3.v
+# read_verilog /home/r49769hf/Questa/COMP12111/src/BoardLib/Clocks.v
+# read_verilog /home/r49769hf/Questa/COMP12111/src/BoardLib/Keyboard.v
+# read_verilog /home/r49769hf/Questa/COMP12111/src/BoardLib/Segments_Scan.v
+# read_verilog /home/r49769hf/Questa/COMP12111/src/BoardLib/Uart_s7.v
+# read_verilog /home/r49769hf/Questa/COMP12111/src/Ex2/Traffic_Light.v
+# read_verilog /home/r49769hf/Questa/COMP12111/src/Ex2/Traffic_Light_Board.v
+# read_verilog /home/r49769hf/Questa/COMP12111/src/GLIB/glbl.v
+# synth_design  -top Traffic_Light_Board -part xc7s25ftgb196-1 -fsm_extraction off 
+Command: synth_design -top Traffic_Light_Board -part xc7s25ftgb196-1 -fsm_extraction off
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s25'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s25'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 255110
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1799.098 ; gain = 390.770 ; free physical = 10982 ; free virtual = 36443
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Traffic_Light_Board' [/home/r49769hf/Questa/COMP12111/src/Ex2/Traffic_Light_Board.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Traffic_Light' [/home/r49769hf/Questa/COMP12111/src/Ex2/Traffic_Light.v:26]
+INFO: [Synth 8-6155] done synthesizing module 'Traffic_Light' (0#1) [/home/r49769hf/Questa/COMP12111/src/Ex2/Traffic_Light.v:26]
+INFO: [Synth 8-6157] synthesizing module 'BoardV3' [/home/r49769hf/Questa/COMP12111/src/BoardLib/BoardV3.v:10]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/r49769hf/Questa/COMP12111/src/BoardLib/BoardV3.v:86]
+INFO: [Synth 8-6157] synthesizing module 'Board_reset' [/home/r49769hf/Questa/COMP12111/src/BoardLib/Board_reset.v:6]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/r49769hf/Questa/COMP12111/src/BoardLib/Board_reset.v:26]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/r49769hf/Questa/COMP12111/src/BoardLib/Board_reset.v:73]
+INFO: [Synth 8-6157] synthesizing module 'ICAPE2' [/cadtools5/Xilinx_Vivado_2024.2/Vivado/2024.1/scripts/rt/data/unisim_comp.v:75480]
+	Parameter ICAP_WIDTH bound to: X32 - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'ICAPE2' (0#1) [/cadtools5/Xilinx_Vivado_2024.2/Vivado/2024.1/scripts/rt/data/unisim_comp.v:75480]
+INFO: [Synth 8-6155] done synthesizing module 'Board_reset' (0#1) [/home/r49769hf/Questa/COMP12111/src/BoardLib/Board_reset.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Clocks' [/home/r49769hf/Questa/COMP12111/src/BoardLib/Clocks.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Clocks' (0#1) [/home/r49769hf/Questa/COMP12111/src/BoardLib/Clocks.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Keyboard' [/home/r49769hf/Questa/COMP12111/src/BoardLib/Keyboard.v:5]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/r49769hf/Questa/COMP12111/src/BoardLib/Keyboard.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'Keyboard' (0#1) [/home/r49769hf/Questa/COMP12111/src/BoardLib/Keyboard.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Segments_Scan' [/home/r49769hf/Questa/COMP12111/src/BoardLib/Segments_Scan.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'Segments_Scan' (0#1) [/home/r49769hf/Questa/COMP12111/src/BoardLib/Segments_Scan.v:4]
+INFO: [Synth 8-6157] synthesizing module 'Uart_S7' [/home/r49769hf/Questa/COMP12111/src/BoardLib/Uart_s7.v:13]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/r49769hf/Questa/COMP12111/src/BoardLib/Uart_s7.v:50]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/r49769hf/Questa/COMP12111/src/BoardLib/Uart_s7.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'Uart_S7' (0#1) [/home/r49769hf/Questa/COMP12111/src/BoardLib/Uart_s7.v:13]
+INFO: [Synth 8-6157] synthesizing module 'AckieV2' [/home/r49769hf/Questa/COMP12111/src/BoardLib/AckieV2.v:32]
+	Parameter CPU_TYPE bound to: 8'b00000100 
+	Parameter CPU_SUB bound to: 16'b0000000000000000 
+	Parameter FEATURE_COUNT bound to: 8'b00000000 
+	Parameter MEM_SEGS bound to: 8'b00000001 
+	Parameter MEM_START bound to: 0 - type: integer 
+	Parameter MEM_SIZE bound to: 12 - type: integer 
+	Parameter MEM_ADDR_WIDTH bound to: 8'b00001011 
+	Parameter MEM_DATA_WIDTH bound to: 8'b00001111 
+	Parameter PROC_DAT_WIDTH bound to: 8'b00001111 
+	Parameter PROC_FLAG_ADDR bound to: 2'b10 
+INFO: [Synth 8-155] case statement is not full and has no default [/home/r49769hf/Questa/COMP12111/src/BoardLib/AckieV2.v:144]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/r49769hf/Questa/COMP12111/src/BoardLib/AckieV2.v:126]
+INFO: [Synth 8-6155] done synthesizing module 'AckieV2' (0#1) [/home/r49769hf/Questa/COMP12111/src/BoardLib/AckieV2.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'BoardV3' (0#1) [/home/r49769hf/Questa/COMP12111/src/BoardLib/BoardV3.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'Traffic_Light_Board' (0#1) [/home/r49769hf/Questa/COMP12111/src/Ex2/Traffic_Light_Board.v:23]
+WARNING: [Synth 8-3848] Net resetbtn in module/entity Traffic_Light_Board does not have driver. [/home/r49769hf/Questa/COMP12111/src/Ex2/Traffic_Light_Board.v:48]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1887.035 ; gain = 478.707 ; free physical = 10881 ; free virtual = 36343
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1901.879 ; gain = 493.551 ; free physical = 10876 ; free virtual = 36338
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s25ftgb196-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7s25ftgb196-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1909.883 ; gain = 501.555 ; free physical = 10876 ; free virtual = 36339
+---------------------------------------------------------------------------------
+INFO: [Device 21-9227] Part: xc7s25ftgb196-1 does not have CEAM library.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1934.805 ; gain = 526.477 ; free physical = 10867 ; free virtual = 36320
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
+	   2 Input   27 Bit       Adders := 1     
+	   2 Input   19 Bit       Adders := 4     
+	   2 Input   17 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 1     
++---Registers : 
+	              120 Bit    Registers := 1     
+	               32 Bit    Registers := 4     
+	               27 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	               19 Bit    Registers := 2     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
+	               15 Bit    Registers := 1     
+	                8 Bit    Registers := 7     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 7     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 18    
++---Muxes : 
+	  10 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 3     
+	   4 Input   32 Bit        Muxes := 1     
+	   6 Input   32 Bit        Muxes := 1     
+	   5 Input   24 Bit        Muxes := 1     
+	  12 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 7     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 1     
+	  16 Input    6 Bit        Muxes := 1     
+	   7 Input    6 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 2     
+	   4 Input    6 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   5 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 5     
+	  25 Input    4 Bit        Muxes := 1     
+	   7 Input    3 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+	  10 Input    1 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 53    
+	   8 Input    1 Bit        Muxes := 1     
+	  13 Input    1 Bit        Muxes := 4     
+	  12 Input    1 Bit        Muxes := 5     
+	  25 Input    1 Bit        Muxes := 11    
+	  24 Input    1 Bit        Muxes := 3     
+	   4 Input    1 Bit        Muxes := 8     
+	   3 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 90 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Buzzer_pin driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port dac_cs_pin driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port dac_load_pin driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port dac_pd_pin driven by constant 1
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port dac_we_pin driven by constant 1
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Traffic_lights_pin[10] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Traffic_lights_pin[9] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Traffic_lights_pin[8] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Traffic_lights_pin[7] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Traffic_lights_pin[6] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Traffic_lights_pin[5] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Traffic_lights_pin[4] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Traffic_lights_pin[3] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Traffic_lights_pin[2] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Traffic_lights_pin[1] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Traffic_lights_pin[0] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Segments_pin[14] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Segments_pin[13] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Segments_pin[12] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Segments_pin[11] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Segments_pin[10] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Segments_pin[9] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Segments_pin[8] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Segments_pin[7] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Segments_pin[6] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Segments_pin[5] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Segments_pin[4] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Segments_pin[3] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Segments_pin[2] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port Segments_pin[1] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port dac_data_pin[11] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port dac_data_pin[10] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port dac_data_pin[9] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port dac_data_pin[8] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port dac_data_pin[7] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port dac_data_pin[6] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port dac_data_pin[5] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port dac_data_pin[4] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port dac_data_pin[3] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port dac_data_pin[2] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port dac_data_pin[1] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port dac_data_pin[0] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port S7_leds_pin[1] driven by constant 0
+WARNING: [Synth 8-3917] design Traffic_Light_Board has port S7_leds_pin[0] driven by constant 0
+WARNING: [Synth 8-7129] Port Simple_buttons_pin[3] in module Traffic_Light_Board is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Simple_buttons_pin[2] in module Traffic_Light_Board is either unconnected or has no load
+WARNING: [Synth 8-7129] Port keycol_pin[5] in module Traffic_Light_Board is either unconnected or has no load
+WARNING: [Synth 8-7129] Port keycol_pin[4] in module Traffic_Light_Board is either unconnected or has no load
+WARNING: [Synth 8-7129] Port keycol_pin[3] in module Traffic_Light_Board is either unconnected or has no load
+WARNING: [Synth 8-7129] Port keycol_pin[2] in module Traffic_Light_Board is either unconnected or has no load
+WARNING: [Synth 8-7129] Port keycol_pin[1] in module Traffic_Light_Board is either unconnected or has no load
+WARNING: [Synth 8-7129] Port keycol_pin[0] in module Traffic_Light_Board is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2032.352 ; gain = 624.023 ; free physical = 10740 ; free virtual = 36207
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2032.352 ; gain = 624.023 ; free physical = 10739 ; free virtual = 36206
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2032.352 ; gain = 624.023 ; free physical = 10759 ; free virtual = 36216
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 2032.352 ; gain = 624.023 ; free physical = 10732 ; free virtual = 36204
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 2032.352 ; gain = 624.023 ; free physical = 10723 ; free virtual = 36204
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 2032.352 ; gain = 624.023 ; free physical = 10723 ; free virtual = 36201
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 2032.352 ; gain = 624.023 ; free physical = 10730 ; free virtual = 36204
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 2032.352 ; gain = 624.023 ; free physical = 10734 ; free virtual = 36207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 2032.352 ; gain = 624.023 ; free physical = 10728 ; free virtual = 36205
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    28|
+|3     |ICAPE2 |     1|
+|4     |LUT1   |    41|
+|5     |LUT2   |    27|
+|6     |LUT3   |    50|
+|7     |LUT4   |    64|
+|8     |LUT5   |    70|
+|9     |LUT6   |   122|
+|10    |FDRE   |   302|
+|11    |FDSE   |     8|
+|12    |IBUF   |     3|
+|13    |OBUF   |    56|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------+--------------+------+
+|      |Instance     |Module        |Cells |
++------+-------------+--------------+------+
+|1     |top          |              |   774|
+|2     |  BoardI1    |BoardV3       |   713|
+|3     |    Ackie1   |AckieV2       |   462|
+|4     |    ClocksI1 |Clocks        |    42|
+|5     |    KeyB1    |Keyboard      |     8|
+|6     |    Rst1     |Board_reset   |    56|
+|7     |    SS1      |Segments_Scan |    18|
+|8     |    U1       |Uart_S7       |   125|
++------+-------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 2032.352 ; gain = 624.023 ; free physical = 10728 ; free virtual = 36204
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 56 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 2032.352 ; gain = 624.023 ; free physical = 10739 ; free virtual = 36212
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 2032.359 ; gain = 624.023 ; free physical = 10770 ; free virtual = 36243
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2040.289 ; gain = 0.000 ; free physical = 11028 ; free virtual = 36496
+INFO: [Netlist 29-17] Analyzing 28 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2167.004 ; gain = 0.000 ; free physical = 10971 ; free virtual = 36431
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 236f131a
+INFO: [Common 17-83] Releasing license: Synthesis
+39 Infos, 56 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2167.004 ; gain = 758.684 ; free physical = 10967 ; free virtual = 36435
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1780.293; main = 1629.034; forked = 451.584
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 2976.426; main = 2167.008; forked = 1024.617
+# read_xdc /cadtools5/questa_custom/resource/comp12111/BoardV3_timing.xdc
+Parsing XDC File [/cadtools5/questa_custom/resource/comp12111/BoardV3_timing.xdc]
+Finished Parsing XDC File [/cadtools5/questa_custom/resource/comp12111/BoardV3_timing.xdc]
+# read_xdc /cadtools5/questa_custom/resource/comp12111/BoardV3_physical.xdc
+Parsing XDC File [/cadtools5/questa_custom/resource/comp12111/BoardV3_physical.xdc]
+Finished Parsing XDC File [/cadtools5/questa_custom/resource/comp12111/BoardV3_physical.xdc]
+# opt_design
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s25'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s25'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors, 2 Warnings
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.88 ; elapsed = 00:00:00.57 . Memory (MB): peak = 2295.066 ; gain = 64.031 ; free physical = 10981 ; free virtual = 36439
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 172b9c911
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2444.863 ; gain = 149.797 ; free physical = 10862 ; free virtual = 36331
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+1
+INFO: [Common 17-83] Releasing license: Implementation
+7 Infos, 0 Warnings, 0 Critical Warnings and 1 Errors encountered.
+opt_design failed
+INFO: [Common 17-344] 'source' was cancelled
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 24 14:10:51 2024...

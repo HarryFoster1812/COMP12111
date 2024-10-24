@@ -147,3 +147,422 @@
  - 116685 [info] Writing sector 50 total size 65537
  - 116685 [info] Board said: P
  - 116685 [info] Starting warm boot 
+ - 913275 [info] Starting STUMP Loader
+ - 913275 [info] No serial port specified
+ - 913275 [info] Searching for ports...
+ - 913275 [info] Found ttyUSB0
+ - 913275 [info] Found ttyS0
+ - 913275 [info] Using ttyUSB0
+ - 913275 [info] Port ttyUSB0
+ - 913275 [info] File /home/r49769hf/Questa/COMP12111/synthesis/Traffic_Light_Board/Traffic_Light_Board.bin
+ - 913275 [info] Sectors to upload: 19
+ - 913275 [info] File size bytes: 1241804
+ - 913803 [info] Starting STUMP Loader
+ - 913803 [info] No serial port specified
+ - 913803 [info] Searching for ports...
+ - 913803 [info] Found ttyUSB0
+ - 913803 [info] Found ttyS0
+ - 913803 [info] Using ttyUSB0
+ - 913803 [info] Port ttyUSB0
+ - 913803 [info] File /home/r49769hf/Questa/COMP12111/synthesis/Traffic_Light_Board/Traffic_Light_Board.bin
+ - 913803 [info] Sectors to upload: 19
+ - 913803 [info] File size bytes: 1241804
+ - 914649 [info] Starting STUMP Loader
+ - 914649 [info] No serial port specified
+ - 914649 [info] Searching for ports...
+ - 914649 [info] Found ttyUSB0
+ - 914649 [info] Found ttyS0
+ - 914649 [info] Using ttyUSB0
+ - 914649 [info] Port ttyUSB0
+ - 914649 [info] File /home/r49769hf/Questa/COMP12111/synthesis/Traffic_Light_Board/Traffic_Light_Board.bin
+ - 914649 [info] Sectors to upload: 19
+ - 914649 [info] File size bytes: 1241804
+ - 915106 [info] Starting STUMP Loader
+ - 915106 [info] No serial port specified
+ - 915106 [info] Searching for ports...
+ - 915106 [info] Found ttyUSB0
+ - 915106 [info] Found ttyS0
+ - 915106 [info] Using ttyUSB0
+ - 915106 [info] Port ttyUSB0
+ - 915106 [info] File /home/r49769hf/Questa/COMP12111/synthesis/Display_Decoder_Board/Display_Decoder_Board.bin
+ - 915106 [info] Sectors to upload: 19
+ - 915106 [info] File size bytes: 1241804
+ - 218561 [info] Starting STUMP Loader
+ - 218561 [info] No serial port specified
+ - 218561 [info] Searching for ports...
+ - 218561 [info] Found ttyS0
+ - 218561 [info] Using ttyS0
+ - 218561 [info] Port ttyS0
+ - 218561 [info] File /home/r49769hf/Questa/COMP12111/synthesis/Traffic_Light_Board/Traffic_Light_Board.bin
+ - 218561 [info] Sectors to upload: 19
+ - 218561 [info] File size bytes: 1241804
+ - 219451 [info] Starting STUMP Loader
+ - 219451 [info] No serial port specified
+ - 219451 [info] Searching for ports...
+ - 219451 [info] Found ttyUSB0
+ - 219451 [info] Found ttyS0
+ - 219451 [info] Using ttyUSB0
+ - 219451 [info] Port ttyUSB0
+ - 219451 [info] File /home/r49769hf/Questa/COMP12111/synthesis/Traffic_Light_Board/Traffic_Light_Board.bin
+ - 219451 [info] Sectors to upload: 19
+ - 219451 [info] File size bytes: 1241804
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 32 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 33 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 34 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 35 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 36 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 37 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 38 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 39 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 40 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 41 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 42 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 43 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 44 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 45 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 46 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 47 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 48 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 49 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Board said: R
+ - 219451 [info] Writing sector 50 total size 65537
+ - 219451 [info] Board said: P
+ - 219451 [info] Starting warm boot 
+ - 248297 [info] Starting STUMP Loader
+ - 248297 [info] No serial port specified
+ - 248297 [info] Searching for ports...
+ - 248297 [info] Found ttyUSB0
+ - 248297 [info] Found ttyS0
+ - 248297 [info] Using ttyUSB0
+ - 248297 [info] Port ttyUSB0
+ - 248297 [info] File /home/r49769hf/Questa/COMP12111/synthesis/Traffic_Light_Board/Traffic_Light_Board.bin
+ - 248297 [info] Sectors to upload: 19
+ - 248297 [info] File size bytes: 1241804
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 32 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 33 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 34 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 35 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 36 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 37 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 38 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 39 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 40 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 41 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 42 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 43 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 44 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 45 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 46 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 47 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 48 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 49 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Board said: R
+ - 248297 [info] Writing sector 50 total size 65537
+ - 248297 [info] Board said: P
+ - 248297 [info] Starting warm boot 
+ - 310893 [info] Starting STUMP Loader
+ - 310893 [info] No serial port specified
+ - 310893 [info] Searching for ports...
+ - 310893 [info] Found ttyUSB0
+ - 310893 [info] Found ttyS0
+ - 310893 [info] Using ttyUSB0
+ - 310893 [info] Port ttyUSB0
+ - 310893 [info] File /home/r49769hf/Questa/COMP12111/synthesis/Traffic_Light_Board/Traffic_Light_Board.bin
+ - 310893 [info] Sectors to upload: 19
+ - 310893 [info] File size bytes: 1241804
+ - 311377 [info] Starting STUMP Loader
+ - 311377 [info] No serial port specified
+ - 311377 [info] Searching for ports...
+ - 311377 [info] Found ttyUSB0
+ - 311377 [info] Found ttyS0
+ - 311377 [info] Using ttyUSB0
+ - 311377 [info] Port ttyUSB0
+ - 311377 [info] File /home/r49769hf/Questa/COMP12111/synthesis/Traffic_Light_Board/Traffic_Light_Board.bin
+ - 311377 [info] Sectors to upload: 19
+ - 311377 [info] File size bytes: 1241804
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 32 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 33 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 34 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 35 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 36 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 37 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 38 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 39 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 40 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 41 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 42 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 43 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 44 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 45 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 46 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 47 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 48 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 49 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Board said: R
+ - 311377 [info] Writing sector 50 total size 65537
+ - 311377 [info] Board said: P
+ - 311377 [info] Starting warm boot 
+ - 346310 [info] Starting STUMP Loader
+ - 346310 [info] No serial port specified
+ - 346310 [info] Searching for ports...
+ - 346310 [info] Found ttyUSB0
+ - 346310 [info] Found ttyS0
+ - 346310 [info] Using ttyUSB0
+ - 346310 [info] Port ttyUSB0
+ - 346310 [info] File /home/r49769hf/Questa/COMP12111/synthesis/Traffic_Light_Board/Traffic_Light_Board.bin
+ - 346310 [info] Sectors to upload: 19
+ - 346310 [info] File size bytes: 1241804
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 32 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 33 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 34 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 35 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 36 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 37 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 38 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 39 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 40 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 41 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 42 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 43 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 44 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 45 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 46 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 47 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 48 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 49 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Board said: R
+ - 346310 [info] Writing sector 50 total size 65537
+ - 346310 [info] Board said: P
+ - 346310 [info] Starting warm boot 
+ - 376697 [info] Starting STUMP Loader
+ - 376697 [info] No serial port specified
+ - 376697 [info] Searching for ports...
+ - 376697 [info] Found ttyUSB0
+ - 376697 [info] Found ttyS0
+ - 376697 [info] Using ttyUSB0
+ - 376697 [info] Port ttyUSB0
+ - 376697 [info] File /home/r49769hf/Questa/COMP12111/synthesis/Traffic_Light_Board/Traffic_Light_Board.bin
+ - 376697 [info] Sectors to upload: 19
+ - 376697 [info] File size bytes: 1241804
+ - 377571 [info] Starting STUMP Loader
+ - 377571 [info] No serial port specified
+ - 377571 [info] Searching for ports...
+ - 377571 [info] Found ttyUSB0
+ - 377571 [info] Found ttyS0
+ - 377571 [info] Using ttyUSB0
+ - 377571 [info] Port ttyUSB0
+ - 377571 [info] File /home/r49769hf/Questa/COMP12111/synthesis/Traffic_Light_Board/Traffic_Light_Board.bin
+ - 377571 [info] Sectors to upload: 19
+ - 377571 [info] File size bytes: 1241804
+ - 377922 [info] Starting STUMP Loader
+ - 377922 [info] No serial port specified
+ - 377922 [info] Searching for ports...
+ - 377922 [info] Found ttyUSB0
+ - 377922 [info] Found ttyS0
+ - 377922 [info] Using ttyUSB0
+ - 377922 [info] Port ttyUSB0
+ - 377922 [info] File /home/r49769hf/Questa/COMP12111/synthesis/Traffic_Light_Board/Traffic_Light_Board.bin
+ - 377922 [info] Sectors to upload: 19
+ - 377922 [info] File size bytes: 1241804
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 32 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 33 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 34 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 35 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 36 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 37 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 38 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 39 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 40 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 41 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 42 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 43 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 44 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 45 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 46 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 47 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 48 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 49 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Board said: R
+ - 377922 [info] Writing sector 50 total size 65537
+ - 377922 [info] Board said: P
+ - 377922 [info] Starting warm boot 

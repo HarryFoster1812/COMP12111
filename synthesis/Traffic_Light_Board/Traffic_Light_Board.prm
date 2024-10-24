@@ -8,4 +8,4 @@ Start Address      0x00000000
 End Address        0x007FFFFF
 
 Addr1         Addr2         Date                    File(s)
-0x00000000    0x0012F2CB    Oct 18 15:17:19 2024    Traffic_Light_Board.bit
+0x00000000    0x0012F2CB    Oct 24 14:27:31 2024    Traffic_Light_Board.bit

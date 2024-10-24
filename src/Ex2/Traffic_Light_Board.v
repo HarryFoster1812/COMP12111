@@ -43,18 +43,18 @@ input wire  [5:0]   keycol_pin
 
 // Declare any internal buses and wires here (connections)
 
-wire
-wire
-
+wire[3:0] simple_buttons;
+wire clk;
+wire[5:0] trafficseq;
 
 // Instantiatiate Trafic_Light here
 
-Traffic_Light Trafic_Light(
-	.lightseq(Traffic_lights_pin[5:0]),
- 	.clock(Clk),
-	.reset(Reset),
-	.D1(),
-	.D2()
+Traffic_Light Traffic_Light1(
+	.lightseq(trafficseq[5:0]),
+ 	.clock(clk),
+	.reset(simple_buttons[1]),
+	.D1(simple_buttons[3]),
+	.D2(simple_buttons[2])
 
 );
 
@@ -66,11 +66,11 @@ BoardV3 BoardI1 ( // Board user pins
              .Clk_100MHz(),
              .Clk_25MHz(), 
 	         .Clk_1kHz(),
-	         .Clk_1Hz(),
-             .Simple_buttons(),	     
+	         .Clk_1Hz(clk),
+             .Simple_buttons(simple_buttons),	     
              .button(),
 	     // inputs - must be connected	     	     
-	         .Crossing_B(6'b00_0000),
+	         .Crossing_B(trafficseq),
              .Crossing_A(5'b0_0000), 
 	         .Buzzer(1'b0),
 	         .S7_leds(2'b00),
