@@ -1,29 +1,23 @@
 m255
 K4
 z2
-Z0 !s12c _opt
+Z0 !s12c _opt1
 Z1 !s99 nomlopt
-Z2 !s12c _opt2
+Z2 !s12c _opt
 R1
-R0
-R1
-R2
-R1
-R0
+Z3 !s12c _opt2
 R1
 R2
 R1
-R2
+R3
 R1
 R2
 R1
-R0
+R3
 R1
-R2
+R3
 R1
-Z3 !s12c _opt1
-R1
-R0
+R3
 R1
 R2
 R1
@@ -35,38 +29,6 @@ R2
 R1
 R3
 R1
-R3
-R1
-R0
-R1
-R3
-R1
-R2
-R1
-R3
-R1
-R3
-R1
-R3
-R1
-R3
-R1
-R3
-R1
-R3
-R1
-R3
-R1
-R3
-R1
-R3
-R1
-R3
-R1
-R3
-R1
-R3
-R1
 R0
 R1
 R2
@@ -74,6 +36,46 @@ R1
 R3
 R1
 R0
+R1
+R0
+R1
+R2
+R1
+R0
+R1
+R3
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R2
+R1
+R3
+R1
+R0
+R1
+R2
 R1
 !s11f vlog 2023.4 2023.10, Oct  9 2023
 13
@@ -97,6 +99,20 @@ o-quiet -auto_acc_if_foreign -work Ex2 -gblso libssl.so -L BoardLib -L unisims -
 Z10 tCvgOpt 0
 n@_opt
 Z11 OL;O;2023.4;77
+R4
+T_opt1
+!s110 1729776803
+V>zzDn?S:EF3;QaC@kNJ8n1
+04 13 4 work Traffic_Light fast 0
+=1-6c4b90ee21cb-671a4ca3-42c72-5d2da
+R1
+R7
+R8
+R9
+o-quiet -auto_acc_if_foreign -work Ex2 -gblso libssl.so -L unisims -L BoardLib -L Ex1 -L Ex2 -L Ex3 +acc
+R10
+n@_opt1
+R11
 T_opt2
 !s110 1729776375
 VWHjY3d86ld]k4H2oJofmz0
