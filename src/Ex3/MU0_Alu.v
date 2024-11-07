@@ -22,12 +22,16 @@ module MU0_Alu (
 	       );
 
 // behavioural description for the ALU
-
-
-
-
-
-
+	always @ (*)
+	begin
+		case(M)
+			2'b00 : assign Q = Y;
+			2'b01 : assign Q = X+Y;
+			2'b10 : assign Q = X+1;
+			2'b11 : assign Q = X+(~Y+1);
+			default : assign Q = 'x;
+		endcase
+	end
 
 endmodule 
 

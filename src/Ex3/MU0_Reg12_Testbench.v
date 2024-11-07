@@ -42,6 +42,11 @@ $stop;      tells the simulator to stop
 
 // Clk setup
 
+initial Clk <= 0;
+
+always
+	#100
+	Clk = ~Clk;
 
 initial
 begin
@@ -50,8 +55,25 @@ begin
 
 
 
-
-
+D = 10;
+En = 1;
+#1000
+// Expected output: 10
+En = 0;
+D = 5;
+# 1000
+// Expected output: 10
+Reset = 1;
+#100
+// Expected output: 0
+Reset = 0;
+En = 1;
+#100
+// Expected output: 5
+D = 6;
+En = 0;
+#100
+// Expected output: 6
 // -------------------------------------------------------
 // Please make sure your stimulus is above this line
 

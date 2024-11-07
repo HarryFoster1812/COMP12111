@@ -29,7 +29,6 @@ wire Halted;
 
 
 
-
 // mu0 as dut (device under test) and mu0_memory have been instantiated
 // for you
 
@@ -71,14 +70,20 @@ MU0_Memory MEM1 (
 
 // set up the clock
 
-
+initial Clk <= 0;
+always
+	#50
+	Clk = ~Clk; 
 
 // Perform a reset action of MU0
 initial
 begin
 
-
-
+Reset = 0;
+#200
+Reset = 1;
+#100
+Reset =0;
 #100 $stop(); // stop the simulation - could tie this to the Halted signal going high
 end
  

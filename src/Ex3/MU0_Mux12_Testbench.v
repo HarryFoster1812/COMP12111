@@ -42,10 +42,21 @@ initial
 begin
 // Enter you stimulus below this line
 // -------------------------------------------------------
-
-
-
-
+A = 1;
+B = 2;
+S = 1;
+# 100
+// should output 2
+S = 0;
+#100
+// Should output 1
+A = 3; 
+// Should output 3
+B = 0;
+#100
+S =0;
+//Should output 0
+#100
 
 // -------------------------------------------------------
 // Please make sure your stimulus is above this line

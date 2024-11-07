@@ -28,12 +28,18 @@ output reg  [15:0] Q
 
 // behavioural code - clock driven
 
+always @ (posedge Clk)
+begin
+	case(En)
+	1 : Q = D;
+	default : Q = Q;
+	endcase
+end
 
-
-
-
-
-
+always @ (Reset) 
+begin
+	Q = 0; 
+end 
 
 
 endmodule 

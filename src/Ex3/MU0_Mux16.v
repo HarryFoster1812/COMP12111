@@ -29,12 +29,18 @@ output reg  [15:0]  Q
 // Combinatorial logic for 2to1 multiplexor
 // S is select, A channel0, B channel1
 
+always @ (*)
+begin
+	if (S)
+	begin
+		assign Q = B;
+	end
 
-
-
-
-
-
+	else
+	begin
+		assign Q = A;
+	end
+end
 
 endmodule 
 

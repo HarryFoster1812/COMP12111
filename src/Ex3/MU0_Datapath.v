@@ -40,28 +40,40 @@ output wire [15:0] Acc);
 // Define internal signals using names from the datapath schematic
 wire [15:0] X;
 wire [15:0] IR;
-
+wire [15:0] Y;
+wire [15:0] ALU;
 
 // Instantiate Datapath components
 
 //MU0 registers
 
+//12 bit reg
 
+MU0_Reg12 PCReg(.En(PC_En), .Reset(Reset), .Clk(Clk), .D(ALU[11:0]), .Q(PC));
 
+// 16 bit reg
+
+MU0_Reg16 IRReg(.En(IR_En), .Reset(Reset), .Clk(Clk), .D(Din[15:0]), .Q(IR));
+MU0_Reg16 ACCReg(.En(Acc_En), .Reset(Reset), .Clk(Clk), .D(ALU[15:0]), .Q(IR));
 
 // MU0 multiplexors
 
+// 12 bit mux
 
+MU0_Mux12 AddrMux(.A(PC[11:0]), .B(IR[11:0]), .S(Addr_sel), .Q(Address[11:0]));
 
+// 16 bit mux
+MU0_Mux16 XMux(.A(Acc[15:0]), .B({4'b0000, PC[11:0]}), .S(X_sel), .Q(X));
+MU0_Mux16 YMux(.A(Din[15:0]), .B(IR[15:0]), .S(Y_sel), .Q(Y));
 
 // MU0 ALU
 
 
-
+MU0_Alu MU0_ALU(.X(X), .Y(Y), .M(M), .Q(ALU));
 
 // MU0 Flag generation
 
-
+MU0_Flags FLAGS(.Acc(Acc), .N(N), .Z(Z));
 
 
 // The following connects X and Dout together, there's no need for you to do so
