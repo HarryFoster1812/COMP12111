@@ -64,6 +64,7 @@ D = 5;
 # 1000
 // Expected output: 10
 Reset = 1;
+En = 1;
 #100
 // Expected output: 0
 Reset = 0;

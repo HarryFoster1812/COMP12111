@@ -113,6 +113,7 @@ o-quiet -auto_acc_if_foreign -work Ex2 -gblso libssl.so -L unisims -L BoardLib -
 R10
 n@_opt1
 R11
+R4
 T_opt2
 !s110 1729776375
 VWHjY3d86ld]k4H2oJofmz0
@@ -130,7 +131,7 @@ R11
 R4
 vTraffic_Light
 2./src/Ex2/Traffic_Light.v
-!s110 1729776369
+Z12 !s110 1731003696
 !i10b 1
 !s100 ?fQ^f@A;dVIYHU8H1<>5<0
 I[a>CE6FVoS_0QFOQTQj:F2
@@ -138,25 +139,25 @@ R4
 w1729776360
 8./src/Ex2/Traffic_Light.v
 F./src/Ex2/Traffic_Light.v
-!i122 158
+!i122 167
 L0 26 107
-Z12 VDg1SIo80bB@j0V0VzS_@n1
-Z13 OL;L;2023.4;77
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+Z14 OL;L;2023.4;77
 r1
 !s85 0
 31
-!s108 1729776369.000000
+!s108 1731003696.000000
 !s107 ./src/Ex2/Traffic_Light.v|
 !s90 -reportprogress|300|-lint|-cover|bcsxf|./src/Ex2/Traffic_Light.v|
 !s101 -O0
 !i113 0
-Z14 !s102 -cover bcsxf
-Z15 o-O0 -lint -cover bcsxf
-Z16 tShow_source 1 DisableOpt 1 CoverOpt 1 CvgOpt 0
+Z15 !s102 -cover bcsxf
+Z16 o-O0 -lint -cover bcsxf
+Z17 tShow_source 1 DisableOpt 1 CoverOpt 1 CvgOpt 0
 n@traffic_@light
 vTraffic_Light_Board
 2./src/Ex2/Traffic_Light_Board.v
-Z17 !s110 1729776368
+!s110 1731003695
 !i10b 1
 !s100 k5TkdMMY]`TJ:Dc_aY9zo0
 I<Q`GlmNW4g`Ug<?E3PgaG3
@@ -164,25 +165,25 @@ R4
 w1729775866
 8./src/Ex2/Traffic_Light_Board.v
 F./src/Ex2/Traffic_Light_Board.v
-!i122 156
+!i122 165
 L0 23 106
-R12
 R13
+R14
 r1
 !s85 0
 31
-Z18 !s108 1729776368.000000
+Z18 !s108 1731003695.000000
 !s107 ./src/Ex2/Traffic_Light_Board.v|
 !s90 -reportprogress|300|-lint|-cover|bcsxf|./src/Ex2/Traffic_Light_Board.v|
 !s101 -O0
 !i113 0
-R14
 R15
 R16
+R17
 n@traffic_@light_@board
 vTraffic_Light_Testbench
 2./src/Ex2/Traffic_Light_Testbench.v
-R17
+R12
 !i10b 1
 !s100 E1U6mMK2V<0z7806?1KDN2
 IENoC@9Qibjc1;h2hdT9kg3
@@ -190,10 +191,10 @@ R4
 w1729697680
 8./src/Ex2/Traffic_Light_Testbench.v
 F./src/Ex2/Traffic_Light_Testbench.v
-!i122 157
+!i122 166
 L0 20 66
-R12
 R13
+R14
 r1
 !s85 0
 31
@@ -202,7 +203,7 @@ R18
 !s90 -reportprogress|300|-lint|-cover|bcsxf|./src/Ex2/Traffic_Light_Testbench.v|
 !s101 -O0
 !i113 0
-R14
 R15
 R16
+R17
 n@traffic_@light_@testbench

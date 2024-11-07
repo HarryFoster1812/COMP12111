@@ -28,19 +28,24 @@ output reg  [15:0] Q
 
 // behavioural code - clock driven
 
-always @ (posedge Clk)
+// on the rising clock edge or when reset is enabled
+always @ (posedge Clk, posedge Reset)
 begin
-	case(En)
-	1 : Q = D;
-	default : Q = Q;
-	endcase
+	if(Reset) // check is reset is high
+	begin
+		Q <= 0;
+	end
+
+	else // reset is not high so check if Enable is
+	begin
+		case(En)
+			0 : Q <= Q;
+			1 : Q <= D; // if En is high then set output to input 
+			default : Q <= 1'bx; // else use the previous output
+		endcase
+	end
+
 end
-
-always @ (posedge Reset) 
-begin
-	Q = 0; 
-end 
-
 
 endmodule 
 

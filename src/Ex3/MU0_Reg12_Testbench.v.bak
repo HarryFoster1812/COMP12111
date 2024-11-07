@@ -44,11 +44,9 @@ $stop;      tells the simulator to stop
 
 initial Clk <= 0;
 
-always @ (*)
-begin
+always
 	#100
 	Clk = ~Clk;
-end
 
 initial
 begin

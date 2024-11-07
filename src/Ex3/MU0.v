@@ -64,7 +64,7 @@ MU0_Control Control (.Clk(Clk), .Reset(Reset), .F(F),  .N(N), .Z(Z),
 
 // Required by Monitor (Ackie) JSP
 
-assign PC[15:12] = 4'b000;
+assign  PC[15:12] = 4'b000;
 AND3B2  I1[15:0] ( .O(net1), .I2(Acc), .I1(srcC[1]), .I0(srcC[0]));
 AND3B1  I2[15:0] ( .O(net2), .I2(PC), .I1(srcC[0]), .I0(srcC[1]));
 AND3B1  I3[15:0] ( .O(net3), .I2({14'd0,N,Z}), .I1(srcC[1]), .I0(srcC[0]));

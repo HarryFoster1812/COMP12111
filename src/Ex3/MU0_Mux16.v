@@ -33,12 +33,12 @@ always @ (*)
 begin
 	if (S)
 	begin
-		assign Q = B;
+		Q = B;
 	end
 
 	else
 	begin
-		assign Q = A;
+		Q = A;
 	end
 end
 

@@ -54,7 +54,7 @@ MU0_Reg12 PCReg(.En(PC_En), .Reset(Reset), .Clk(Clk), .D(ALU[11:0]), .Q(PC));
 // 16 bit reg
 
 MU0_Reg16 IRReg(.En(IR_En), .Reset(Reset), .Clk(Clk), .D(Din[15:0]), .Q(IR));
-MU0_Reg16 ACCReg(.En(Acc_En), .Reset(Reset), .Clk(Clk), .D(ALU[15:0]), .Q(IR));
+MU0_Reg16 ACCReg(.En(Acc_En), .Reset(Reset), .Clk(Clk), .D(ALU[15:0]), .Q(Acc));
 
 // MU0 multiplexors
 

@@ -70,7 +70,7 @@ R11
 R4
 vDisplay_Decoder
 2./src/Ex1/Display_Decoder.v
-Z12 !s110 1729261345
+Z12 !s110 1731003694
 !i10b 1
 !s100 ]06]WnAN_Mg3gZ[237Z;E1
 IWIT7VBWC2k^6;C]P=hM=<1
@@ -78,14 +78,14 @@ R4
 w1728046422
 8./src/Ex1/Display_Decoder.v
 F./src/Ex1/Display_Decoder.v
-!i122 30
+!i122 39
 L0 20 28
 Z13 VDg1SIo80bB@j0V0VzS_@n1
 Z14 OL;L;2023.4;77
 r1
 !s85 0
 31
-Z15 !s108 1729261345.000000
+Z15 !s108 1731003694.000000
 !s107 ./src/Ex1/Display_Decoder.v|
 !s90 -reportprogress|300|-lint|-cover|bcsxf|./src/Ex1/Display_Decoder.v|
 !s101 -O0
@@ -104,14 +104,14 @@ R4
 w1728046783
 8./src/Ex1/Display_Decoder_Board.v
 F./src/Ex1/Display_Decoder_Board.v
-!i122 28
+!i122 37
 L0 21 94
 R13
 R14
 r1
 !s85 0
 31
-!s108 1729261344.000000
+!s108 1731003693.000000
 !s107 ./src/Ex1/Display_Decoder_Board.v|
 !s90 -reportprogress|300|-lint|-cover|bcsxf|./src/Ex1/Display_Decoder_Board.v|
 !s101 -O0
@@ -130,7 +130,7 @@ R4
 w1728046205
 8./src/Ex1/Display_Decoder_Testbench.v
 F./src/Ex1/Display_Decoder_Testbench.v
-!i122 29
+!i122 38
 L0 21 56
 R13
 R14

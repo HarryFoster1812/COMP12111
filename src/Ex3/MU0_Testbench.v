@@ -82,8 +82,9 @@ begin
 Reset = 0;
 #200
 Reset = 1;
-#100
+#1000
 Reset =0;
+#10000
 #100 $stop(); // stop the simulation - could tie this to the Halted signal going high
 end
  
