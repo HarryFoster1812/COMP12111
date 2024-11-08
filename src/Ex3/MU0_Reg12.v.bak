@@ -36,13 +36,9 @@ begin
 		Q <= 0;
 	end
 
-	else // reset is not high so check if Enable is
+	else if (En) // reset is not high so check if Enable is
 	begin
-		case(En)
-			0 : Q <= Q;
-			1 : Q <= D; // if En is high then set output to input 
-			default : Q <= 1'bx; // else use the previous output
-		endcase
+		Q <= D;
 	end
 
 end
