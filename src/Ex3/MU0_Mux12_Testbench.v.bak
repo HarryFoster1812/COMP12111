@@ -42,21 +42,28 @@ initial
 begin
 // Enter you stimulus below this line
 // -------------------------------------------------------
-A = 1;
-B = 2;
-S = 1;
+
+// check s high
+A = 12'd1;
+B = 12'd2;
+S = 12'd1;
 # 100
 // should output 2
-S = 0;
+
+// check s low
+S = 12'd0;
 #100
 // Should output 1
-A = 3; 
-// Should output 3
-B = 0;
-#100
-S =0;
-//Should output 0
 
+// check that changing the inputs will also change the output when s low
+A = 12'd3; 
+// Should output 3
+
+B = 12'd0;
+#100
+S = 12'd1;
+//Should output 0
+#100
 
 // -------------------------------------------------------
 // Please make sure your stimulus is above this line

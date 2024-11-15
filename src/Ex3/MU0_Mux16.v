@@ -6,9 +6,10 @@
 // Implement using behavioural Verilog
 //
 // Comments:
-//
-//
-//
+// This module describes how a the 16 bit mux works
+// uses combinatorial logic so blocking stements are used
+// if s = 1 then output B else output A
+
 
 // Do not touch the following line it is required for simulation 
 `timescale 1ns/100ps

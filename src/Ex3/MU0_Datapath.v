@@ -2,13 +2,13 @@
 // Version 2024. P W Nutter
 //
 // MU0 datapath design - structural Verilog
-// Design is incomplet - functional components of the
+// Design is incomplete - functional components of the
 // MU0 datapath need instantiation.
 // Use the names used in the lab instructions.
 //
 // Comments:
-//
-//
+// this module instantiates all of the modules requred to complete the datapath design given in the lab instructions
+// 
 //
 
 // Do not touch the following line it is required for simulation 
@@ -41,7 +41,7 @@ output wire [15:0] Acc);
 wire [15:0] X;
 wire [15:0] IR;
 wire [15:0] Y;
-wire [15:0] ALU;
+wire [15:0] ALU; 
 
 // Instantiate Datapath components
 
@@ -67,7 +67,6 @@ MU0_Mux16 XMux(.A(Acc[15:0]), .B({4'b0000, PC[11:0]}), .S(X_sel), .Q(X));
 MU0_Mux16 YMux(.A(Din[15:0]), .B(IR[15:0]), .S(Y_sel), .Q(Y));
 
 // MU0 ALU
-
 
 MU0_Alu MU0_ALU(.X(X), .Y(Y), .M(M), .Q(ALU));
 

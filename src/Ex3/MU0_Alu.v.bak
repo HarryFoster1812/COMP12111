@@ -4,9 +4,12 @@
 // MU0 ALU design 
 //
 // Comments:
+// This module describes how the MU0 Alu works
+// It uses combinatorial logic so non blocking statements are used
+//  
 //
 //
-//
+
 
 // Do not touch the following line it is required for simulation 
 `timescale 1ns/100ps
@@ -25,11 +28,11 @@ module MU0_Alu (
 	always @ (*)
 	begin
 		case(M)
-			2'b00 : Q = Y;
-			2'b01 : Q = X+Y;
-			2'b10 : Q = X+1;
-			2'b11 : Q = X+(~Y+1);
-			default : Q = 1'bX;
+			2'b00 	: Q <= Y;
+			2'b01 	: Q <= X+Y;
+			2'b10 	: Q <= X+16'd1;
+			2'b11 	: Q <= X+(~Y+16'd1); // X - Y
+			default : Q <= 16'bx; // we need to handle the case whn the input is 2'bx
 		endcase
 	end
 

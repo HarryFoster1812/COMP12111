@@ -54,27 +54,30 @@ begin
 // -------------------------------------------------------
 
 
-
-D = 10;
-En = 1;
+// test writing to thte register
+D = 12'd10;
+En = 12'd1;
 #1000
 // Expected output: 10
-En = 0;
-D = 5;
+
+// test disabling enable
+En = 12'd0;
+D = 12'd5;
 # 1000
 // Expected output: 10
-Reset = 1;
-En = 1;
+
+// test reset and enable high at the same time
+Reset = 12'd1;
+En = 12'd1;
 #100
 // Expected output: 0
-Reset = 0;
-En = 1;
+
+// test writing when reset goes low
+Reset = 12'd0;
 #100
 // Expected output: 5
-D = 6;
-En = 0;
-#100
-// Expected output: 6
+
+
 // -------------------------------------------------------
 // Please make sure your stimulus is above this line
 

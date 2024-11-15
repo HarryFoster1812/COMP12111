@@ -70,7 +70,7 @@ MU0_Memory MEM1 (
 
 // set up the clock
 
-initial Clk <= 0;
+initial Clk <= 1'b0;
 always
 	#50
 	Clk = ~Clk; 
@@ -79,11 +79,11 @@ always
 initial
 begin
 
-Reset = 0;
+Reset = 1'b0;
 #200
-Reset = 1;
+Reset = 1'b1;
 #1000
-Reset =0;
+Reset = 1'b0;
 #10000
 #100 $stop(); // stop the simulation - could tie this to the Halted signal going high
 end

@@ -79,11 +79,11 @@ always
 initial
 begin
 
-Reset = 0;
+Reset = 1'b0;
 #200
-Reset = 1;
-#100
-Reset =0;
+Reset = 1'b1;
+#1000
+Reset = 1'b0;
 #10000
 #100 $stop(); // stop the simulation - could tie this to the Halted signal going high
 end
