@@ -6,8 +6,17 @@
 // Implement using behavioural Verilog
 //
 // Comments:
+// Harry Foster, Date(07/11/2024)
 // This module describes how a the 12 bit register works
 // uses sequential logic as it is synchronos so blocking stements are used
+// 
+// Date(08/11/2024)
+// Restructured the module by removing two case statements and doing as before in Ex2
+//
+// Date(15/11/2024)
+// Changed any assignments of constants to nb' format following the feedback of Ex2
+// Added more comments
+
 
 
 // Do not touch the following line it is required for simulation 
@@ -33,12 +42,12 @@ always @ (posedge Clk, posedge Reset)
 begin
 	if(Reset) // check is reset is high
 	begin
-		Q = 12'd0;
+		Q <= 12'd0;
 	end
 
 	else if (En) // reset is not high so check if Enable is
 	begin
-		Q = D;
+		Q <= D;
 	end
 
 end

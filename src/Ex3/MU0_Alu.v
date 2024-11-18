@@ -4,11 +4,14 @@
 // MU0 ALU design 
 //
 // Comments:
+// Harry Foster, Date(07/11/2024)
 // This module describes how the MU0 Alu works
-// It uses combinatorial logic so non blocking statements are used
-//  
-//
-//
+// It uses combinatorial logic so blocking statements are used
+// 
+// Date(15/11/2024)
+// Changed any assignments of constants to nb' format following the feedback of Ex2
+// Added more comments
+
 
 
 // Do not touch the following line it is required for simulation 

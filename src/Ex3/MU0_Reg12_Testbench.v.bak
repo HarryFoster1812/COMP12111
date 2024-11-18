@@ -74,13 +74,10 @@ En = 12'd1;
 
 // test writing when reset goes low
 Reset = 12'd0;
-
 #100
 // Expected output: 5
-D = 12'd6;
-En = 12'd0;
-#100
-// Expected output: 6
+
+
 // -------------------------------------------------------
 // Please make sure your stimulus is above this line
 

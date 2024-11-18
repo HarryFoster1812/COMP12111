@@ -6,9 +6,13 @@
 // Need to complete the test stimulus.
 //
 // Comments:
+// Harry Foster, Date(07/11/2024)
+// Added testing for the Mu0 Datapath 
 //
-//
-//
+// Date(15/11/2024)
+// Changed any assignments of constants to nb' format following the feedback of Ex2
+// Added more comments
+
 
 // Do not touch the following lines as they required for simulation 
 `timescale 1ns/100ps 

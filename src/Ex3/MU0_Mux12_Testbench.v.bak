@@ -6,8 +6,8 @@
 // Need to complete the test stimulus.
 //
 // Comments:
-//
-//
+// Harry Foster, Date(07/11/2024)
+// Testing for the Mux12
 //
 
 // Do not touch the following lines as they required for simulation 
@@ -59,6 +59,7 @@ S = 12'd0;
 A = 12'd3; 
 // Should output 3
 
+// check that changing the inputs will also change the output when s high
 B = 12'd0;
 #100
 S = 12'd1;

@@ -6,6 +6,7 @@
 // Implement using behavioural Verilog
 //
 // Comments:
+// Harry Foster, Date(07/11/2024)
 // This module describes how a the 16 bit register works
 // uses sequential logic as it is synchronus so nonblocking statements are used
 

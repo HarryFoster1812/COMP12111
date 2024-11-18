@@ -6,8 +6,18 @@
 // Implement using behavioural Verilog
 //
 // Comments:
+// Harry Foster, Date(07/11/2024)
 // This module describes how a the 12 bit register works
 // uses sequential logic as it is synchronos so blocking stements are used
+// 
+// Date(08/11/2024)
+// Restructured the module by removing two case statements and doing as before in Ex2
+//
+// Date(15/11/2024)
+// Changed any assignments of constants to nb' format following the feedback of Ex2
+// Added more comments
+// changed blocking to non blocking
+
 
 
 // Do not touch the following line it is required for simulation 

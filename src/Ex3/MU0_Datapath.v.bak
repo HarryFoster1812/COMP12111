@@ -7,8 +7,9 @@
 // Use the names used in the lab instructions.
 //
 // Comments:
+// Harry Foster, Date(07/11/2024)
 // this module instantiates all of the modules requred to complete the datapath design given in the lab instructions
-//
+// 
 //
 
 // Do not touch the following line it is required for simulation 
@@ -41,7 +42,7 @@ output wire [15:0] Acc);
 wire [15:0] X;
 wire [15:0] IR;
 wire [15:0] Y;
-wire [15:0] ALU;
+wire [15:0] ALU; 
 
 // Instantiate Datapath components
 

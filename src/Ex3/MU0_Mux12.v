@@ -6,6 +6,7 @@
 // Implement using behavioural Verilog
 //
 // Comments:
+// Harry Foster, Date(07/11/2024)
 // This module describes how a the 12 bit mux works
 // uses combinatoral logic so blocking stements are used
 // if s = 1 then output B else output A

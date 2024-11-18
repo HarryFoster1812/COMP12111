@@ -7,7 +7,7 @@
 //
 // Comments:
 // This module describes how a the 16 bit register works
-// uses sequential logic as it is synchronos so blocking stements are used
+// uses sequential logic as it is synchronus so nonblocking statements are used
 
 // Do not touch the following line it is required for simulation 
 `timescale 1ns/100ps
@@ -32,12 +32,12 @@ always @ (posedge Clk, posedge Reset)
 begin
 	if(Reset) // check is reset is high
 	begin
-		Q = 16'd0;
+		Q <= 16'd0;
 	end
 
 	else if (En) // reset is not high so check if Enable is
 	begin
-		Q = D;
+		Q <= D;
 	end
 
 end

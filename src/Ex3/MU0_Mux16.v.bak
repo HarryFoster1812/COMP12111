@@ -34,12 +34,12 @@ always @ (*)
 begin
 	if (S)
 	begin
-		Q <= B;
+		Q = B;
 	end
 
 	else
 	begin
-		Q <= A;
+		Q = A;
 	end
 end
 

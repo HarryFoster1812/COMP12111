@@ -7,9 +7,12 @@
 // Use the names used in the lab instructions.
 //
 // Comments:
+// Harry Foster, Date(07/11/2024)
 // this module instantiates all of the modules requred to complete the datapath design given in the lab instructions
 // 
-//
+// Date(15/11/2024)
+// Changed any assignments of constants to nb' format following the feedback of Ex2
+// Added more comments
 
 // Do not touch the following line it is required for simulation 
 `timescale 1ns/100ps
