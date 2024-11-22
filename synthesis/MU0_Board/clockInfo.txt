@@ -1,7 +1,7 @@
 -------------------------------------
 | Tool Version : Vivado v.2024.1
-| Date         : Thu Nov 14 17:51:38 2024
-| Host         : e-c10kilf9025
+| Date         : Fri Nov 22 12:48:39 2024
+| Host         : e-c10kilf1622
 | Design       : design_1
 | Device       : xc7s25-ftgb196-1--
 -------------------------------------

@@ -1148,3 +1148,166 @@
  - 197256 [info] Writing sector 50 total size 65537
  - 197256 [info] Board said: P
  - 197256 [info] Starting warm boot 
+ - 3148296 [info] Starting STUMP Loader
+ - 3148296 [info] No serial port specified
+ - 3148296 [info] Searching for ports...
+ - 3148296 [info] Found ttyUSB0
+ - 3148296 [info] Found ttyS4
+ - 3148296 [info] Found ttyS0
+ - 3148296 [info] Using ttyUSB0
+ - 3148296 [info] Port ttyUSB0
+ - 3148296 [info] File /home/r49769hf/Questa/COMP12111/synthesis/MU0_Board/MU0_Board.bin
+ - 3148296 [info] Sectors to upload: 19
+ - 3148296 [info] File size bytes: 1241804
+ - 3148296 [info] Board said: R
+ - 3148296 [info] Writing sector 32 total size 65537
+ - 3148296 [info] Board said: P
+ - 3148296 [info] Board said: R
+ - 3148296 [info] Writing sector 33 total size 65537
+ - 3148296 [info] Board said: P
+ - 3148296 [info] Board said: R
+ - 3148296 [info] Writing sector 34 total size 65537
+ - 3148296 [info] Board said: P
+ - 3148296 [info] Board said: R
+ - 3148296 [info] Writing sector 35 total size 65537
+ - 3148296 [info] Board said: P
+ - 3148296 [info] Board said: R
+ - 3148296 [info] Writing sector 36 total size 65537
+ - 3192938 [info] Starting STUMP Loader
+ - 3192938 [info] No serial port specified
+ - 3192938 [info] Searching for ports...
+ - 3192938 [info] Found ttyUSB0
+ - 3192938 [info] Found ttyS4
+ - 3192938 [info] Found ttyS0
+ - 3192938 [info] Using ttyUSB0
+ - 3192938 [info] Port ttyUSB0
+ - 3192938 [info] File /home/r49769hf/Questa/COMP12111/synthesis/MU0_Board/MU0_Board.bin
+ - 3192938 [info] Sectors to upload: 19
+ - 3192938 [info] File size bytes: 1241804
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 32 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 33 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 34 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 35 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 36 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 37 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 38 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 39 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 40 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 41 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 42 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 43 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 44 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 45 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 46 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 47 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 48 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 49 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Board said: R
+ - 3192938 [info] Writing sector 50 total size 65537
+ - 3192938 [info] Board said: P
+ - 3192938 [info] Starting warm boot 
+ - 1313495 [info] Starting STUMP Loader
+ - 1313495 [info] No serial port specified
+ - 1313495 [info] Searching for ports...
+ - 1313495 [info] Found ttyUSB0
+ - 1313495 [info] Found ttyS4
+ - 1313495 [info] Found ttyS0
+ - 1313495 [info] Using ttyUSB0
+ - 1313495 [info] Port ttyUSB0
+ - 1313495 [info] File /home/r49769hf/Questa/COMP12111/synthesis/MU0_Board/MU0_Board.bin
+ - 1313495 [info] Sectors to upload: 19
+ - 1313495 [info] File size bytes: 1241804
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 32 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 33 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 34 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 35 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 36 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 37 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 38 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 39 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 40 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 41 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 42 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 43 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 44 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 45 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 46 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 47 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 48 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 49 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Board said: R
+ - 1313495 [info] Writing sector 50 total size 65537
+ - 1313495 [info] Board said: P
+ - 1313495 [info] Starting warm boot 

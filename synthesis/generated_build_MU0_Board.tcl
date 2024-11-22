@@ -17,7 +17,6 @@
  read_verilog /home/r49769hf/Questa/COMP12111/src/Ex3/MU0_Reg12.v
  read_verilog /home/r49769hf/Questa/COMP12111/src/Ex3/MU0_Reg16.v
  read_verilog /home/r49769hf/Questa/COMP12111/src/GLIB/glbl.v
- read_verilog /home/r49769hf/Questa/COMP12111/src/Ex1/Display_Decoder.v
 synth_design  -top MU0_Board -part xc7s25ftgb196-1 -fsm_extraction off 
 
   

@@ -17,16 +17,46 @@
 # /home/r49769hf/Questa/COMP12111
 # .main_pane
 # fpgaLoad
-# after#479
+# after#483
 # Info: Startup continues, no compilation required.
-vsim Ex3.MU0_Reg16
-# vsim Ex3.MU0_Reg16 
-# Start time: 17:26:39 on Nov 18,2024
+# vsim -voptargs="+acc" Ex3.MU0_Board GLIB.glbl -L BoardLib 
+# Start time: 16:44:26 on Nov 22,2024
 # Loading libssl.so
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
-# Use vdir -l command to find such design units.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.MU0_Board(fast)
+# Loading BoardLib.BoardV3(fast)
+# Loading BoardLib.Board_reset(fast)
+# Loading unisims.ICAPE2(fast)
+# Loading unisims.SIM_CONFIGE2(fast)
+# Loading BoardLib.Clocks(fast)
+# Loading BoardLib.Keyboard(fast)
+# Loading BoardLib.Segments_Scan(fast)
+# Loading BoardLib.Uart_S7(fast)
+# Loading BoardLib.AckieV2(fast)
+# Loading work.MU0(fast)
+# Loading work.MU0_Datapath(fast)
+# Loading work.MU0_Reg12(fast)
 # Loading work.MU0_Reg16(fast)
-# End time: 17:30:54 on Nov 18,2024, Elapsed time: 0:04:15
-# Errors: 0, Warnings: 1
+# Loading work.MU0_Mux12(fast)
+# Loading work.MU0_Mux16(fast)
+# Loading work.MU0_Alu(fast)
+# Loading work.MU0_Flags(fast)
+# Loading work.MU0_Control(fast)
+# Loading unisims.AND4B3(fast)
+# Loading unisims.AND4B1(fast)
+# Loading unisims.AND4(fast)
+# Loading unisims.AND4B2(fast)
+# Loading unisims.BUF(fast)
+# Loading unisims.FDC(fast)
+# Loading unisims.AND2(fast)
+# Loading unisims.INV(fast)
+# Loading unisims.AND2B1(fast)
+# Loading unisims.OR4(fast)
+# Loading unisims.OR2B1(fast)
+# Loading unisims.OR2(fast)
+# Loading unisims.OR3(fast)
+# Loading work.MU0_Memory(fast)
+# Loading GLIB.glbl(fast)
+# Loading unisims.AND3B2(fast)
+# Loading unisims.AND3B1(fast)
+# Loading unisims.AND3(fast)

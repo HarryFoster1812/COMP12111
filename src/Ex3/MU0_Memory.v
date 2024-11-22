@@ -1,6 +1,13 @@
-// COMP12111 Exercise 3 - MU0_Memory 
-// Version 2024. P W Nutter
-//
+// Verilog HDL for "MU0_lib", "memory_mu0" "functional"
+
+// Author J Pepper
+// MAY 2016
+
+// Author Tong Li
+// JUNE 2018
+// Version 2.0
+
+
 // Dual port memory/register module
 // Address range 0 to 12'hFED is memory/ram
 // Uses a Synchronous RAM on a negedge clock, to fool processor into think its just a RAM
@@ -56,31 +63,31 @@
 
 module MU0_Memory(
                   input  wire        Clk,     		// 8MHz
-		              input  wire [11:0] address0,		// CPU address bus
-		              input  wire [15:0] write_data0,	// Data from cpu to memory 
-		              output reg  [15:0] read_data0,	// Data from memory to cpu
-		              input  wire        WEn0,		// cpu memory write enable, active high 
-		              input  wire [11:0] address1,		// Ackie/perentie address bus
-		              input  wire [15:0] write_data1,	// Data from ackie/perentie to memory
-		              output reg  [15:0] read_data1,	// Data from memory to ackie/perentie
-		              input  wire        WEn1,		// Ackie/perentie memory write enable, active high
+		  input  wire [11:0] address0,		// CPU address bus
+		  input  wire [15:0] write_data0,	// Data from cpu to memory 
+		  output reg  [15:0] read_data0,	// Data from memory to cpu
+		  input  wire        WEn0,		// cpu memory write enable, active high 
+		  input  wire [11:0] address1,		// Ackie/perentie address bus
+		  input  wire [15:0] write_data1,	// Data from ackie/perentie to memory
+		  output reg  [15:0] read_data1,	// Data from memory to ackie/perentie
+		  input  wire        WEn1,		// Ackie/perentie memory write enable, active high
                   output reg  [10:0] traffic_lights,	// Six taffic light leds 
                   output reg         buzzer_pulses,	// Piezo buzzer 
-                  output reg  [3:0]  digit5,		// BCD data for seven segment display, seven segment decoder required
-                  output reg  [3:0]  digit4,		// BCD data for seven segment display, seven segment decoder required
-                  output reg  [3:0]  digit3,		// BCD data for seven segment display, seven segment decoder required
-                  output reg  [3:0]  digit2,		// BCD data for seven segment display, seven segment decoder required 
-                  output reg  [3:0]  digit1,		// BCD data for seven segment display, seven segment decoder required
-                  output reg  [3:0]  digit0,		// BCD data for seven segment display, seven segment decoder required
+                  output reg  [14:0] digit5,		// Data for 14 segment display
+                  output reg  [14:0] digit4,		// Data for 14 segment display
+                  output reg  [14:0] digit3,		// Data for 14 segment display
+                  output reg  [14:0] digit2,		// Data for 14 segment display 
+                  output reg  [14:0] digit1,		// Data for 14 segment display
+                  output reg  [14:0] digit0,		// Data for 14 segment display
                   output reg  [1:0]  s7_leds,		// 2 leds on S7mini board
                   input  wire [15:0] keypad,		// 16 button keypad
                   input  wire [7:0]  buttons_AtoH,	// A to H buttons		
                   input  wire [3:0]  Simple_buttons,	// 4 none scanned buttons (traffic crossings)
-		              input  wire        WEnAckie_bp,              // breakpoint enable signal for ackie write
-    		          input  wire [15:0] breakpoint_mem_adr,       // breakpoint memory address 
-   		            input  wire        bp_mem_data_ackie_write,  // breakpoint data written to memory from ackie
-    		          output reg         bp_mem_data_ackie_read,   // breakpoint data read from memory to ackie 
-    	            output reg         bp_mem_detected           // detected breakpoint data from memory to ackie       
+		  input  wire        WEnAckie_bp,              // breakpoint enable signal for ackie write
+    		  input  wire [15:0] breakpoint_mem_adr,       // breakpoint memory address 
+   		  input  wire        bp_mem_data_ackie_write,  // breakpoint data written to memory from ackie
+    		  output reg         bp_mem_data_ackie_read,   // breakpoint data read from memory to ackie 
+    	          output reg         bp_mem_detected           // detected breakpoint data from memory to ackie       
                  );
 
 reg [15:0] mem [12'h000:`MEM_SIZE];	// memory array 16 x 4096
@@ -185,24 +192,24 @@ always @(posedge Clk)
   if(WEn1)
    case(address1)
     12'hFFF : traffic_lights <= write_data1[10:0];
-    12'hFFA : digit5 <= write_data1[3:0];
-    12'hFF9 : digit4 <= write_data1[3:0];
-    12'hFF8 : digit3 <= write_data1[3:0];
-    12'hFF7 : digit2 <= write_data1[3:0];
-    12'hFF6 : digit1 <= write_data1[3:0];
-    12'hFF5 : digit0 <= write_data1[3:0];
+    12'hFFA : digit5 <= write_data1[14:0];
+    12'hFF9 : digit4 <= write_data1[14:0];
+    12'hFF8 : digit3 <= write_data1[14:0];
+    12'hFF7 : digit2 <= write_data1[14:0];
+    12'hFF6 : digit1 <= write_data1[14:0];
+    12'hFF5 : digit0 <= write_data1[14:0];
     12'hFF4 : s7_leds <= write_data1[1:0];
    endcase
   if(WEn0)
    if((WEn1 == 0) | (address0 != address1)) // Just make sure that Ackie(WEn1) is not trying to write to same peripheral
     case(address0)
      12'hFFF : traffic_lights <= write_data0[10:0];
-     12'hFFA : digit5 <= write_data0[3:0];
-     12'hFF9 : digit4 <= write_data0[3:0];
-     12'hFF8 : digit3 <= write_data0[3:0];
-     12'hFF7 : digit2 <= write_data0[3:0];
-     12'hFF6 : digit1 <= write_data0[3:0];
-     12'hFF5 : digit0 <= write_data0[3:0];
+     12'hFFA : digit5 <= write_data0[14:0];
+     12'hFF9 : digit4 <= write_data0[14:0];
+     12'hFF8 : digit3 <= write_data0[14:0];
+     12'hFF7 : digit2 <= write_data0[14:0];
+     12'hFF6 : digit1 <= write_data0[14:0];
+     12'hFF5 : digit0 <= write_data0[14:0];
      12'hFF4 : s7_leds <= write_data0[1:0];
     endcase    
  end
