@@ -362,9 +362,9 @@ validate_input
 ; divide by 100 to get time in seconds
 
 ; get 10ms units(MOD 10)
-; get 100 ms    (/10)   (MOD 100 - units)
-; get second    (/100)  (MOD 1000 - MOD 100 - MOD10)
-; get 10 second (/1000) (MOD 10000 - MOD 1000 - MOD 100 - MOD10)
+; get 100 ms    (//10)   (MOD 100 - units)
+; get seconds    (//100)  (MOD 1000 - MOD 100 - MOD10)
+; get 10 seconds (//1000) (MOD 10000 - MOD 1000 - MOD 100 - MOD10)
 
 show_you
         LDA Zero
@@ -413,8 +413,284 @@ show_took
 ; SHOULD BE TEN UNIT . TENTHS HUNDRETHS
 ;       Digit3 Digit2  Digit1  Digit0
 
+LDA Tens
 
+        SUB Nine
+        JNE NotNine
+        LDA 9_Segment
+        JMP write_digit3
 
+        NotNine
+        ADD Nine
+        SUB Eight
+        JNE NotEight
+        LDA 8_Segment
+        JMP write_digit3
+
+        NotEight
+        ADD Eight
+        SUB Seven
+        JNE NotSeven
+        LDA 7_Segment
+        JMP write_digit3
+
+        NotSeven
+        ADD Seven
+        SUB Six
+        JNE NotSix
+        LDA 6_Segment
+        JMP write_digit3
+
+        NotSix
+        ADD Six
+        SUB Five
+        JNE NotFive
+        LDA 5_Segment
+        JMP write_digit3
+
+        NotFive
+        ADD Five
+        SUB Four
+        JNE NotFour
+        LDA 4_Segment
+        JMP write_digit3
+
+        NotFour
+        ADD Four
+        SUB Three
+        JNE NotThree
+        LDA 3_Segment
+        JMP write_digit3
+
+        NotThree
+        ADD Three
+        SUB Two
+        JNE NotTwo
+        LDA 2_Segment
+        JMP write_digit3
+
+        NotTwo
+        ADD Two
+        SUB One
+        JNE NotOne
+        LDA 1_Segment
+        JMP write_digit3
+
+        NotOne
+        LDA 0_Segment
+
+        write_digit3
+        STA Digit3
+
+LDA Units
+
+        SUB Nine
+        JNE NotNine_one
+        LDA 9_Segment
+        JMP write_digit2
+
+        NotNine_one
+        ADD Nine
+        SUB Eight
+        JNE NotEight_one
+        LDA 8_Segment
+        JMP write_digit2
+
+        NotEight_one
+        ADD Eight
+        SUB Seven
+        JNE NotSeven_one
+        LDA 7_Segment
+        JMP write_digit2
+
+        NotSeven_one
+        ADD Seven
+        SUB Six
+        JNE NotSix_one
+        LDA 6_Segment
+        JMP write_digit2
+
+        NotSix_one
+        ADD Six
+        SUB Five
+        JNE NotFive_one
+        LDA 5_Segment
+        JMP write_digit2
+
+        NotFive_one
+        ADD Five
+        SUB Four
+        JNE NotFour_one
+        LDA 4_Segment
+        JMP write_digit2
+
+        NotFour_one
+        ADD Four
+        SUB Three
+        JNE NotThree_one
+        LDA 3_Segment
+        JMP write_digit2
+
+        NotThree_one
+        ADD Three
+        SUB Two
+        JNE NotTwo_one
+        LDA 2_Segment
+        JMP write_digit2
+
+        NotTwo_one
+        ADD Two
+        SUB One
+        JNE NotOne_one
+        LDA 1_Segment
+        JMP write_digit2
+
+        NotOne_one
+        LDA 0_Segment
+
+        write_digit2
+        ADD DP
+        STA Digit2
+
+LDA Tenths
+
+        SUB Nine
+        JNE NotNine_two
+        LDA 9_Segment
+        JMP write_digit1
+
+        NotNine_two
+        ADD Nine
+        SUB Eight
+        JNE NotEight_two
+        LDA 8_Segment
+        JMP write_digit1
+
+        NotEight_two
+        ADD Eight
+        SUB Seven
+        JNE NotSeven_two
+        LDA 7_Segment
+        JMP write_digit1
+
+        NotSeven_two
+        ADD Seven
+        SUB Six
+        JNE NotSix_two
+        LDA 6_Segment
+        JMP write_digit1
+
+        NotSix_two
+        ADD Six
+        SUB Five
+        JNE NotFive_two
+        LDA 5_Segment
+        JMP write_digit1
+
+        NotFive_two
+        ADD Five
+        SUB Four
+        JNE NotFour_two
+        LDA 4_Segment
+        JMP write_digit1
+
+        NotFour_two
+        ADD Four
+        SUB Three
+        JNE NotThree_two
+        LDA 3_Segment
+        JMP write_digit1
+
+        NotThree_two
+        ADD Three
+        SUB Two
+        JNE NotTwo_two
+        LDA 2_Segment
+        JMP write_digit1
+
+        NotTwo_two
+        ADD Two
+        SUB One
+        JNE NotOne_two
+        LDA 1_Segment
+        JMP write_digit1
+
+        NotOne_two
+        LDA 0_Segment
+
+        write_digit1
+        STA Digit1
+
+LDA Hundreths
+
+        SUB Nine
+        JNE NotNine_three
+        LDA 9_Segment
+        JMP write_digit0
+        
+        NotNine_three
+        ADD Nine
+        SUB Eight
+        JNE NotEight_three
+        LDA 8_Segment
+        JMP write_digit0
+        
+        NotEight_three
+        ADD Eight
+        SUB Seven
+        JNE NotSeven_three
+        LDA 7_Segment
+        JMP write_digit0
+        
+        NotSeven_three
+        ADD Seven
+        SUB Six
+        JNE NotSix_three
+        LDA 6_Segment
+        JMP write_digit0
+        
+        NotSix_three
+        ADD Six
+        SUB Five
+        JNE NotFive_three
+        LDA 5_Segment
+        JMP write_digit0
+        
+        NotFive_three
+        ADD Five
+        SUB Four
+        JNE NotFour_three
+        LDA 4_Segment
+        JMP write_digit0
+        
+        NotFour_three
+        ADD Four
+        SUB Three
+        JNE NotThree_three
+        LDA 3_Segment
+        JMP write_digit0
+        
+        NotThree_three
+        ADD Three
+        SUB Two
+        JNE NotTwo_three
+        LDA 2_Segment
+        JMP write_digit0
+        
+        NotTwo_three
+        ADD Two
+        SUB One
+        JNE NotOne_three
+        LDA 1_Segment
+        JMP write_digit0
+        
+        NotOne_three
+        LDA 0_Segment
+        
+        write_digit0
+        STA Digit0
+
+; add pause for two seconds 
 
 reset
         LDA Zero
@@ -484,7 +760,19 @@ Z_Segment EQU &C09
 7_Segment EQU &1401 
 8_Segment EQU &FF  
 9_Segment EQU &E7  
-DP                      DEFW 0b100000000000000
+DP        EQU 0b100000000000000
+
+Zero EQU 0  
+One EQU 1  
+Two EQU 2  
+Three EQU 3  
+Four EQU 4  
+Five EQU 5  
+Six EQU 6  
+Seven EQU 7  
+Eight EQU 8  
+Nine EQU 9  
+
 
 Time            DEFW 0
 Zero            DEFW &0
